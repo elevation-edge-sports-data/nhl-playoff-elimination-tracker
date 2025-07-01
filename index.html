@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NHL Team Map Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <style>
+    #map { height: 100vh; background: #fff; }
+    .sidebar { position: absolute; top: 10px; left: 10px; background: white; padding: 10px; z-index: 1000; max-height: 90vh; overflow-y: auto; }
+    .leaflet-container { background: #fff; }
+  </style>
+</head>
+<body class="flex">
+  <div class="sidebar w-64 bg-white shadow-lg">
+    <h2 class="text-xl font-bold mb-4">NHL Teams</h2>
+    <div id="team-controls"></div>
+    <div class="mt-4">
+      <button id="playoff-mode" class="bg-blue-500 text-white px-4 py-2 rounded">Start Playoff Mode</button>
+      <button id="play-button" class="bg-green-500 text-white px-4 py-2 rounded mt-2">Play</button>
+      <label class="block mt-2">
+        <input type="checkbox" id="size-adjust" checked> Adjust Logo Size
+      </label>
+    </div>
+  </div>
+  <div id="map" class="flex-1"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script>
+    // NHL team data with relative logo paths updated to NHL2022 folder
+    const nhlTeams = [
+      { name: "Anaheim Ducks", city: "Anaheim", lat: 33.8, lng: -117.9, logo: "NHL2022/ANA.png" },
+      { name: "Arizona Coyotes", city: "Tempe", lat: 33.4, lng: -111.9, logo: "NHL2022/ARI.png" },
+      { name: "Boston Bruins", city: "Boston", lat: 42.4, lng: -71.1, logo: "NHL2022/BOS.png" },
+      { name: "Buffalo Sabres", city: "Buffalo", lat: 42.9, lng: -78.9, logo: "NHL2022/BUF.png" },
+      { name: "Calgary Flames", city: "Calgary", lat: 51.0, lng: -114.1, logo: "NHL2022/CGY.png" },
+      { name: "Carolina Hurricanes", city: "Raleigh", lat: 35.8, lng: -78.6, logo: "NHL2022/CAR.png" },
+      { name: "Chicago Blackhawks", city: "Chicago", lat: 41.9, lng: -87.6, logo: "NHL2022/CHI.png" },
+      { name: "Colorado Avalanche", city: "Denver", lat: 39.7, lng: -105.0, logo: "NHL2022/COL.png" },
+      { name: "Columbus Blue Jackets", city: "Columbus", lat: 40.0, lng: -83.0, logo: "NHL2022/CBJ.png" },
+      { name: "Dallas Stars", city: "Dallas", lat: 32.8, lng: -96.8, logo: "NHL2022/DAL.png" },
+      { name: "Detroit Red Wings", city: "Detroit", lat: 42.3, lng: -83.0, logo: "NHL2022/DET.png" },
+      { name: "Edmonton Oilers", city: "Edmonton", lat: 53.5, lng: -113.5, logo: "NHL2022/EDM.png" },
+      { name: "Florida Panthers", city: "Sunrise", lat: 26.1, lng: -80.1, logo: "NHL2022/FLA.png" },
+      { name: "Los Angeles Kings", city: "Los Angeles", lat: 34.0, lng: -118.2, logo: "NHL2022/LAK.png" },
+      { name: "Minnesota Wild", city: "Saint Paul", lat: 44.9, lng: -93.1, logo: "NHL2022/MIN.png" },
+      { name: "Montreal Canadiens", city: "Montreal", lat: 45.5, lng: -73.6, logo: "NHL2022/MTL.png" },
+      { name: "Nashville Predators", city: "Nashville", lat: 36.2, lng: -86.8, logo: "NHL2022/NSH.png" },
+      { name: "New Jersey Devils", city: "Newark", lat: 40.7, lng: -74.2, logo: "NHL2022/NJD.png" },
+      { name: "New York Islanders", city: "Elmont", lat: 40.7, lng: -73.6, logo: "NHL2022/NYI.png" },
+      { name: "New York Rangers", city: "New York", lat: 40.7, lng: -74.0, logo: "NHL2022/NYR.png" },
+      { name: "Ottawa Senators", city: "Ottawa", lat: 45.4, lng: -75.7, logo: "NHL2022/OTT.png" },
+      { name: "Philadelphia Flyers", city: "Philadelphia", lat: 40.0, lng: -75.1, logo: "NHL2022/PHI.png" },
+      { name: "Pittsburgh Penguins", city: "Pittsburgh", lat: 40.4, lng: -80.0, logo: "NHL2022/PIT.png" },
+      { name: "San Jose Sharks", city: "San Jose", lat: 37.3, lng: -121.9, logo: "NHL2022/SJS.png" },
+      { name: "Seattle Kraken", city: "Seattle", lat: 47.6, lng: -122.3, logo: "NHL2022/SEA.png" },
+      { name: "St. Louis Blues", city: "St. Louis", lat: 38.6, lng: -90.2, logo: "NHL2022/STL.png" },
+      { name: "Tampa Bay Lightning", city: "Tampa", lat: 27.9, lng: -82.5, logo: "NHL2022/TBL.png" },
+      { name: "Toronto Maple Leafs", city: "Toronto", lat: 43.7, lng: -79.4, logo: "NHL2022/TOR.png" },
+      { name: "Vancouver Canucks", city: "Vancouver", lat: 49.3, lng: -123.1, logo: "NHL2022/VAN.png" },
+      { name: "Vegas Golden Knights", city: "Las Vegas", lat: 36.2, lng: -115.1, logo: "NHL2022/VGK.png" },
+      { name: "Washington Capitals", city: "Washington", lat: 38.9, lng: -77.0, logo: "NHL2022/WSH.png" },
+      { name: "Winnipeg Jets", city: "Winnipeg", lat: 49.9, lng: -97.1, logo: "NHL2022/WPG.png" }
+    ];
+
+    // 2022 Elimination data
+    const eliminations = [
+      { name: "Arizona Coyotes", date: "2022-03-30" },
+      { name: "Montreal Canadiens", date: "2022-04-05" },
+      { name: "Philadelphia Flyers", date: "2022-04-07" },
+      { name: "New Jersey Devils", date: "2022-04-09" },
+      { name: "Anaheim Ducks", date: "2022-04-10" },
+      { name: "Ottawa Senators", date: "2022-04-10" },
+      { name: "Buffalo Sabres", date: "2022-04-12" },
+      { name: "Detroit Red Wings", date: "2022-04-12" },
+      { name: "Seattle Kraken", date: "2022-04-13" },
+      { name: "Chicago Blackhawks", date: "2022-04-14" },
+      { name: "San Jose Sharks", date: "2022-04-15" },
+      { name: "Columbus Blue Jackets", date: "2022-04-16" },
+      { name: "New York Islanders", date: "2022-04-17" },
+      { name: "Winnipeg Jets", date: "2022-04-20" },
+      { name: "Vancouver Canucks", date: "2022-04-21" },
+      { name: "Vegas Golden Knights", date: "2022-04-27" },
+      { name: "Nashville Predators", date: "2022-05-09" },
+      { name: "Minnesota Wild", date: "2022-05-12" },
+      { name: "Washington Capitals", date: "2022-05-13" },
+      { name: "Boston Bruins", date: "2022-05-14" },
+      { name: "Toronto Maple Leafs", date: "2022-05-14" },
+      { name: "Los Angeles Kings", date: "2022-05-14" },
+      { name: "Pittsburgh Penguins", date: "2022-05-15" },
+      { name: "Dallas Stars", date: "2022-05-15" },
+      { name: "Florida Panthers", date: "2022-05-23" },
+      { name: "Calgary Flames", date: "2022-05-26" },
+      { name: "St. Louis Blues", date: "2022-05-27" },
+      { name: "Carolina Hurricanes", date: "2022-05-30" },
+      { name: "Edmonton Oilers", date: "2022-06-06" },
+      { name: "New York Rangers", date: "2022-06-11" },
+      { name: "Tampa Bay Lightning", date: "2022-06-26" },
+      { name: "Colorado Avalanche", date: "2022-06-26", champion: true }
+    ];
+
+    // Initialize map
+    const map = L.map('map', { minZoom: 3, maxZoom: 5 }).setView([50.0, -100.0], 4);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Store markers and states
+    const markers = {};
+    let initializedTeams = new Set(); // Track initialized teams
+    let playoffMode = false;
+    let currentPlayoffIndex = 0;
+    let playInterval = null; // To store the interval ID for autoplay
+
+    // Haversine formula for distance (in km)
+    function getDistance(lat1, lng1, lat2, lng2) {
+      const R = 6371;
+      const dLat = (lat2 - lat1) * Math.PI / 180;
+      const dLng = (lng2 - lng1) * Math.PI / 180;
+      const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLng / 2) * Math.sin(dLng / 2);
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      return R * c;
+    }
+
+    // Calculate logo size based on adjacent eliminations
+    function getLogoSize(team) {
+      if (!document.getElementById('size-adjust').checked) {
+        return team.name === "Colorado Avalanche" || team.name === "Dallas Stars" ||
+               team.name === "Winnipeg Jets" || team.name === "Minnesota Wild" ? 75 : 50;
+      }
+      let size = team.name === "Colorado Avalanche" || team.name === "Dallas Stars" ||
+                 team.name === "Winnipeg Jets" || team.name === "Minnesota Wild" ? 75 : 50;
+      nhlTeams.forEach(otherTeam => {
+        if (otherTeam.name !== team.name && initializedTeams.has(otherTeam.name) && !markers[otherTeam.name]?.visible) {
+          const distance = getDistance(team.lat, team.lng, otherTeam.lat, otherTeam.lng);
+          if (team.name === "Colorado Avalanche" && distance < 1000) {
+            size += 20; // Increased responsiveness for Avalanche
+          } else if (distance < 500) {
+            size += 10; // Standard increase for others
+          }
+        }
+      });
+      return Math.min(size, 150); // Increased max size to 150px
+    }
+
+    // Update marker sizes
+    function updateMarkerSizes() {
+      nhlTeams.forEach(team => {
+        if (markers[team.name]?.visible) {
+          const size = getLogoSize(team);
+          markers[team.name].setIcon(L.icon({
+            iconUrl: team.logo,
+            iconSize: [size, size],
+            iconAnchor: [size / 2, size / 2]
+          }));
+        }
+      });
+    }
+
+    // Create team controls
+    const teamControls = document.getElementById('team-controls');
+    if (!teamControls) {
+      console.error("team-controls element not found!");
+    } else {
+      nhlTeams.forEach((team, index) => {
+        const div = document.createElement('div');
+        div.innerHTML = `
+          <label class="block">
+            <input type="checkbox" id="team-${team.name.replace(/\s/g, '-')}" checked>
+            ${team.name}
+          </label>
+        `;
+        teamControls.appendChild(div);
+        console.log(`Added to menu: ${team.name} (index: ${index})`);
+        const checkbox = div.querySelector('input');
+        checkbox.addEventListener('change', () => {
+          markers[team.name].visible = checkbox.checked;
+          if (checkbox.checked) {
+            map.addLayer(markers[team.name]);
+          } else {
+            map.removeLayer(markers[team.name]);
+          }
+          updateMarkerSizes();
+        });
+
+        // Create marker with local logo
+        const img = new Image();
+        img.src = team.logo;
+        img.onload = () => {
+          markers[team.name] = L.marker([team.lat, team.lng], {
+            icon: L.icon({
+              iconUrl: team.logo,
+              iconSize: [getLogoSize(team), getLogoSize(team)],
+              iconAnchor: [getLogoSize(team) / 2, getLogoSize(team) / 2]
+            })
+          }).addTo(map);
+          markers[team.name].visible = true;
+          initializedTeams.add(team.name); // Mark team as initialized
+          console.log(`Marker created for: ${team.name}`);
+          updateMarkerSizes(); // Update sizes after marker creation
+        };
+        img.onerror = () => console.error(`Failed to load logo for ${team.name}: ${team.logo}`);
+      });
+    }
+
+    // Playoff mode (manual)
+    const playoffButton = document.getElementById('playoff-mode');
+    if (!playoffButton) {
+      console.error("playoff-mode button not found!");
+    } else {
+      playoffButton.addEventListener('click', () => {
+        console.log("Playoff button clicked");
+        if (!playoffMode) {
+          playoffMode = true;
+          playoffButton.textContent = 'Next Elimination';
+          currentPlayoffIndex = 0;
+          nhlTeams.forEach(team => {
+            if (markers[team.name]) {
+              markers[team.name].visible = true;
+              map.addLayer(markers[team.name]);
+              document.getElementById(`team-${team.name.replace(/\s/g, '-')}`).checked = true;
+            }
+          });
+          updateMarkerSizes();
+        } else if (currentPlayoffIndex < eliminations.length - 1) {
+          const team = eliminations[currentPlayoffIndex];
+          if (!team.champion && markers[team.name]) {
+            markers[team.name].visible = false;
+            map.removeLayer(markers[team.name]);
+            document.getElementById(`team-${team.name.replace(/\s/g, '-')}`).checked = false;
+            updateMarkerSizes();
+          }
+          currentPlayoffIndex++;
+          if (currentPlayoffIndex === eliminations.length - 1) {
+            playoffButton.textContent = 'Reset';
+          }
+        } else {
+          playoffMode = false;
+          playoffButton.textContent = 'Start Playoff Mode';
+          currentPlayoffIndex = 0;
+          nhlTeams.forEach(team => {
+            if (markers[team.name]) {
+              markers[team.name].visible = true;
+              map.addLayer(markers[team.name]);
+              document.getElementById(`team-${team.name.replace(/\s/g, '-')}`).checked = true;
+            }
+          });
+          updateMarkerSizes();
+        }
+      });
+    }
+
+    // Play button (autoplay)
+    const playButton = document.getElementById('play-button');
+    if (!playButton) {
+      console.error("play-button not found!");
+    } else {
+      playButton.addEventListener('click', () => {
+        console.log("Play button clicked");
+        if (!playInterval && playoffMode) {
+          playButton.textContent = 'Stop';
+          playInterval = setInterval(() => {
+            if (currentPlayoffIndex < eliminations.length) {
+              const team = eliminations[currentPlayoffIndex];
+              if (!team.champion && markers[team.name]) {
+                markers[team.name].visible = false;
+                map.removeLayer(markers[team.name]);
+                document.getElementById(`team-${team.name.replace(/\s/g, '-')}`).checked = false;
+                updateMarkerSizes();
+              }
+              currentPlayoffIndex++;
+              if (currentPlayoffIndex === eliminations.length - 1) {
+                playButton.textContent = 'Reset';
+                clearInterval(playInterval);
+                playInterval = null;
+              } else if (currentPlayoffIndex === eliminations.length) {
+                playoffMode = false;
+                playButton.textContent = 'Play';
+                clearInterval(playInterval);
+                playInterval = null;
+                currentPlayoffIndex = 0;
+                nhlTeams.forEach(team => {
+                  if (markers[team.name]) {
+                    markers[team.name].visible = true;
+                    map.addLayer(markers[team.name]);
+                    document.getElementById(`team-${team.name.replace(/\s/g, '-')}`).checked = true;
+                  }
+                });
+                updateMarkerSizes();
+              }
+            }
+          }, 1000); // 1 second interval
+        } else {
+          clearInterval(playInterval);
+          playInterval = null;
+          playButton.textContent = 'Play';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
