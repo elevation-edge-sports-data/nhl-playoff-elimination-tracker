@@ -1,0 +1,5742 @@
+{
+"2025":[
+ {
+  "team": "SJS",
+  "elim order": 1
+ },
+ {
+  "team": "CHI",
+  "elim order": 2
+ },
+ {
+  "team": "NSH",
+  "elim order": 3
+ },
+ {
+  "team": "SEA",
+  "elim order": 4
+ },
+ {
+  "team": "ANA",
+  "elim order": 5
+ },
+ {
+  "team": "BOS",
+  "elim order": 6
+ },
+ {
+  "team": "PHI",
+  "elim order": 6
+ },
+ {
+  "team": "PIT",
+  "elim order": 8
+ },
+ {
+  "team": "BUF",
+  "elim order": 9
+ },
+ {
+  "team": "UTA",
+  "elim order": 10
+ },
+ {
+  "team": "VAN",
+  "elim order": 10
+ },
+ {
+  "team": "NYI",
+  "elim order": 12
+ },
+ {
+  "team": "NYR",
+  "elim order": 12
+ },
+ {
+  "team": "DET",
+  "elim order": 12
+ },
+ {
+  "team": "CGY",
+  "elim order": 15
+ },
+ {
+  "team": "CBJ",
+  "elim order": 16
+ },
+ {
+  "team": "NJD",
+  "elim order": 17
+ },
+ {
+  "team": "TBL",
+  "elim order": 18
+ },
+ {
+  "team": "MTL",
+  "elim order": 18
+ },
+ {
+  "team": "OTT",
+  "elim order": 20
+ },
+ {
+  "team": "MIN",
+  "elim order": 20
+ },
+ {
+  "team": "LAK",
+  "elim order": 20
+ },
+ {
+  "team": "COL",
+  "elim order": 23
+ },
+ {
+  "team": "STL",
+  "elim order": 24
+ },
+ {
+  "team": "VGK",
+  "elim order": 25
+ },
+ {
+  "team": "WSH",
+  "elim order": 26
+ },
+ {
+  "team": "WPG",
+  "elim order": 27
+ },
+ {
+  "team": "TOR",
+  "elim order": 28
+ },
+ {
+  "team": "CAR",
+  "elim order": 29
+ },
+ {
+  "team": "DAL",
+  "elim order": 30
+ },
+ {
+  "team": "EDM",
+  "elim order": 31
+ },
+ {
+  "team": "FLA",
+  "elim order": 32
+ }
+],
+"2024":[
+ {
+  "team": "CHI",
+  "elim order": 1
+ },
+ {
+  "team": "SJS",
+  "elim order": 2
+ },
+ {
+  "team": "ANA",
+  "elim order": 3
+ },
+ {
+  "team": "CBJ",
+  "elim order": 4
+ },
+ {
+  "team": "ARI",
+  "elim order": 4
+ },
+ {
+  "team": "CGY",
+  "elim order": 6
+ },
+ {
+  "team": "MTL",
+  "elim order": 7
+ },
+ {
+  "team": "OTT",
+  "elim order": 7
+ },
+ {
+  "team": "SEA",
+  "elim order": 7
+ },
+ {
+  "team": "MIN",
+  "elim order": 10
+ },
+ {
+  "team": "BUF",
+  "elim order": 11
+ },
+ {
+  "team": "STL",
+  "elim order": 12
+ },
+ {
+  "team": "NJD",
+  "elim order": 13
+ },
+ {
+  "team": "PHI",
+  "elim order": 14
+ },
+ {
+  "team": "PIT",
+  "elim order": 14
+ },
+ {
+  "team": "DET",
+  "elim order": 14
+ },
+ {
+  "team": "WSH",
+  "elim order": 17
+ },
+ {
+  "team": "TBL",
+  "elim order": 18
+ },
+ {
+  "team": "NYI",
+  "elim order": 19
+ },
+ {
+  "team": "WPG",
+  "elim order": 19
+ },
+ {
+  "team": "LAK",
+  "elim order": 21
+ },
+ {
+  "team": "NSH",
+  "elim order": 22
+ },
+ {
+  "team": "TOR",
+  "elim order": 23
+ },
+ {
+  "team": "VGK",
+  "elim order": 24
+ },
+ {
+  "team": "CAR",
+  "elim order": 25
+ },
+ {
+  "team": "BOS",
+  "elim order": 26
+ },
+ {
+  "team": "COL",
+  "elim order": 26
+ },
+ {
+  "team": "VAN",
+  "elim order": 28
+ },
+ {
+  "team": "NYR",
+  "elim order": 29
+ },
+ {
+  "team": "DAL",
+  "elim order": 30
+ },
+ {
+  "team": "EDM",
+  "elim order": 31
+ },
+ {
+  "team": "FLA",
+  "elim order": 32
+ }
+],
+"2023":[
+ {
+  "team": "SJS",
+  "elim order": 1
+ },
+ {
+  "team": "CBJ",
+  "elim order": 2
+ },
+ {
+  "team": "CHI",
+  "elim order": 3
+ },
+ {
+  "team": "ANA",
+  "elim order": 4
+ },
+ {
+  "team": "ARI",
+  "elim order": 5
+ },
+ {
+  "team": "MTL",
+  "elim order": 6
+ },
+ {
+  "team": "PHI",
+  "elim order": 7
+ },
+ {
+  "team": "STL",
+  "elim order": 7
+ },
+ {
+  "team": "VAN",
+  "elim order": 7
+ },
+ {
+  "team": "OTT",
+  "elim order": 10
+ },
+ {
+  "team": "WSH",
+  "elim order": 10
+ },
+ {
+  "team": "DET",
+  "elim order": 10
+ },
+ {
+  "team": "NSH",
+  "elim order": 13
+ },
+ {
+  "team": "CGY",
+  "elim order": 13
+ },
+ {
+  "team": "BUF",
+  "elim order": 15
+ },
+ {
+  "team": "PIT",
+  "elim order": 15
+ },
+ {
+  "team": "WPG",
+  "elim order": 17
+ },
+ {
+  "team": "NYI",
+  "elim order": 18
+ },
+ {
+  "team": "MIN",
+  "elim order": 18
+ },
+ {
+  "team": "TBL",
+  "elim order": 20
+ },
+ {
+  "team": "LAK",
+  "elim order": 20
+ },
+ {
+  "team": "BOS",
+  "elim order": 22
+ },
+ {
+  "team": "COL",
+  "elim order": 22
+ },
+ {
+  "team": "NYR",
+  "elim order": 24
+ },
+ {
+  "team": "NJD",
+  "elim order": 25
+ },
+ {
+  "team": "TOR",
+  "elim order": 26
+ },
+ {
+  "team": "EDM",
+  "elim order": 27
+ },
+ {
+  "team": "SEA",
+  "elim order": 28
+ },
+ {
+  "team": "CAR",
+  "elim order": 29
+ },
+ {
+  "team": "DAL",
+  "elim order": 30
+ },
+ {
+  "team": "FLA",
+  "elim order": 31
+ },
+ {
+  "team": "VGK",
+  "elim order": 32
+ }
+],
+"2022":[
+ {
+  "team": "MTL",
+  "elim order": 1
+ },
+ {
+  "team": "PHI",
+  "elim order": 2
+ },
+ {
+  "team": "ARI",
+  "elim order": 2
+ },
+ {
+  "team": "SEA",
+  "elim order": 2
+ },
+ {
+  "team": "NJD",
+  "elim order": 5
+ },
+ {
+  "team": "OTT",
+  "elim order": 6
+ },
+ {
+  "team": "BUF",
+  "elim order": 6
+ },
+ {
+  "team": "CHI",
+  "elim order": 8
+ },
+ {
+  "team": "DET",
+  "elim order": 9
+ },
+ {
+  "team": "ANA",
+  "elim order": 10
+ },
+ {
+  "team": "SJS",
+  "elim order": 11
+ },
+ {
+  "team": "CBJ",
+  "elim order": 12
+ },
+ {
+  "team": "NYI",
+  "elim order": 12
+ },
+ {
+  "team": "WPG",
+  "elim order": 14
+ },
+ {
+  "team": "VAN",
+  "elim order": 15
+ },
+ {
+  "team": "VGK",
+  "elim order": 16
+ },
+ {
+  "team": "NSH",
+  "elim order": 17
+ },
+ {
+  "team": "MIN",
+  "elim order": 18
+ },
+ {
+  "team": "WSH",
+  "elim order": 19
+ },
+ {
+  "team": "BOS",
+  "elim order": 20
+ },
+ {
+  "team": "LAK",
+  "elim order": 20
+ },
+ {
+  "team": "TOR",
+  "elim order": 20
+ },
+ {
+  "team": "DAL",
+  "elim order": 23
+ },
+ {
+  "team": "PIT",
+  "elim order": 23
+ },
+ {
+  "team": "FLA",
+  "elim order": 25
+ },
+ {
+  "team": "CGY",
+  "elim order": 26
+ },
+ {
+  "team": "STL",
+  "elim order": 27
+ },
+ {
+  "team": "CAR",
+  "elim order": 28
+ },
+ {
+  "team": "EDM",
+  "elim order": 29
+ },
+ {
+  "team": "NYR",
+  "elim order": 30
+ },
+ {
+  "team": "TBL",
+  "elim order": 31
+ },
+ {
+  "team": "COL",
+  "elim order": 32
+ }
+],
+"2021":[
+ {
+  "team": "BUF",
+  "elim order": 1
+ },
+ {
+  "team": "NJD",
+  "elim order": 2
+ },
+ {
+  "team": "CBJ",
+  "elim order": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 4
+ },
+ {
+  "team": "ANA",
+  "elim order": 5
+ },
+ {
+  "team": "PHI",
+  "elim order": 6
+ },
+ {
+  "team": "OTT",
+  "elim order": 7
+ },
+ {
+  "team": "NYR",
+  "elim order": 8
+ },
+ {
+  "team": "CHI",
+  "elim order": 8
+ },
+ {
+  "team": "SJS",
+  "elim order": 8
+ },
+ {
+  "team": "ARI",
+  "elim order": 11
+ },
+ {
+  "team": "LAK",
+  "elim order": 12
+ },
+ {
+  "team": "DAL",
+  "elim order": 13
+ },
+ {
+  "team": "CGY",
+  "elim order": 14
+ },
+ {
+  "team": "VAN",
+  "elim order": 14
+ },
+ {
+  "team": "WSH",
+  "elim order": 16
+ },
+ {
+  "team": "STL",
+  "elim order": 16
+ },
+ {
+  "team": "EDM",
+  "elim order": 18
+ },
+ {
+  "team": "FLA",
+  "elim order": 19
+ },
+ {
+  "team": "PIT",
+  "elim order": 19
+ },
+ {
+  "team": "NSH",
+  "elim order": 21
+ },
+ {
+  "team": "MIN",
+  "elim order": 22
+ },
+ {
+  "team": "TOR",
+  "elim order": 23
+ },
+ {
+  "team": "WPG",
+  "elim order": 24
+ },
+ {
+  "team": "CAR",
+  "elim order": 25
+ },
+ {
+  "team": "BOS",
+  "elim order": 26
+ },
+ {
+  "team": "COL",
+  "elim order": 27
+ },
+ {
+  "team": "VGK",
+  "elim order": 28
+ },
+ {
+  "team": "NYI",
+  "elim order": 29
+ },
+ {
+  "team": "MTL",
+  "elim order": 30
+ },
+ {
+  "team": "TBL",
+  "elim order": 31
+ }
+],
+"2020":[
+ {
+  "team": "DET",
+  "elim order": 1
+ },
+ {
+  "team": "OTT",
+  "elim order": 2
+ },
+ {
+  "team": "NJD",
+  "elim order": 2
+ },
+ {
+  "team": "BUF",
+  "elim order": 2
+ },
+ {
+  "team": "ANA",
+  "elim order": 2
+ },
+ {
+  "team": "LAK",
+  "elim order": 2
+ },
+ {
+  "team": "SJS",
+  "elim order": 2
+ },
+ {
+  "team": "NYR",
+  "elim order": 8
+ },
+ {
+  "team": "WPG",
+  "elim order": 9
+ },
+ {
+  "team": "FLA",
+  "elim order": 10
+ },
+ {
+  "team": "PIT",
+  "elim order": 10
+ },
+ {
+  "team": "EDM",
+  "elim order": 10
+ },
+ {
+  "team": "NSH",
+  "elim order": 10
+ },
+ {
+  "team": "MIN",
+  "elim order": 10
+ },
+ {
+  "team": "TOR",
+  "elim order": 15
+ },
+ {
+  "team": "CHI",
+  "elim order": 16
+ },
+ {
+  "team": "CAR",
+  "elim order": 17
+ },
+ {
+  "team": "CBJ",
+  "elim order": 17
+ },
+ {
+  "team": "ARI",
+  "elim order": 17
+ },
+ {
+  "team": "WSH",
+  "elim order": 20
+ },
+ {
+  "team": "CGY",
+  "elim order": 20
+ },
+ {
+  "team": "MTL",
+  "elim order": 22
+ },
+ {
+  "team": "STL",
+  "elim order": 22
+ },
+ {
+  "team": "BOS",
+  "elim order": 24
+ },
+ {
+  "team": "VAN",
+  "elim order": 25
+ },
+ {
+  "team": "COL",
+  "elim order": 25
+ },
+ {
+  "team": "PHI",
+  "elim order": 27
+ },
+ {
+  "team": "VGK",
+  "elim order": 28
+ },
+ {
+  "team": "NYI",
+  "elim order": 29
+ },
+ {
+  "team": "DAL",
+  "elim order": 30
+ },
+ {
+  "team": "TBL",
+  "elim order": 31
+ }
+],
+"2019":[
+ {
+  "team": "OTT",
+  "elim order": 1
+ },
+ {
+  "team": "DET",
+  "elim order": 2
+ },
+ {
+  "team": "NJD",
+  "elim order": 3
+ },
+ {
+  "team": "LAK",
+  "elim order": 4
+ },
+ {
+  "team": "NYR",
+  "elim order": 5
+ },
+ {
+  "team": "BUF",
+  "elim order": 5
+ },
+ {
+  "team": "FLA",
+  "elim order": 7
+ },
+ {
+  "team": "ANA",
+  "elim order": 8
+ },
+ {
+  "team": "VAN",
+  "elim order": 9
+ },
+ {
+  "team": "PHI",
+  "elim order": 10
+ },
+ {
+  "team": "EDM",
+  "elim order": 11
+ },
+ {
+  "team": "CHI",
+  "elim order": 12
+ },
+ {
+  "team": "MIN",
+  "elim order": 12
+ },
+ {
+  "team": "ARI",
+  "elim order": 14
+ },
+ {
+  "team": "MTL",
+  "elim order": 15
+ },
+ {
+  "team": "TBL",
+  "elim order": 16
+ },
+ {
+  "team": "PIT",
+  "elim order": 16
+ },
+ {
+  "team": "CGY",
+  "elim order": 18
+ },
+ {
+  "team": "WPG",
+  "elim order": 19
+ },
+ {
+  "team": "NSH",
+  "elim order": 20
+ },
+ {
+  "team": "TOR",
+  "elim order": 21
+ },
+ {
+  "team": "VGK",
+  "elim order": 21
+ },
+ {
+  "team": "WSH",
+  "elim order": 23
+ },
+ {
+  "team": "NYI",
+  "elim order": 24
+ },
+ {
+  "team": "CBJ",
+  "elim order": 25
+ },
+ {
+  "team": "DAL",
+  "elim order": 26
+ },
+ {
+  "team": "COL",
+  "elim order": 27
+ },
+ {
+  "team": "CAR",
+  "elim order": 28
+ },
+ {
+  "team": "SJS",
+  "elim order": 29
+ },
+ {
+  "team": "BOS",
+  "elim order": 30
+ },
+ {
+  "team": "STL",
+  "elim order": 31
+ }
+],
+"2018":[
+ {
+  "team": "VAN",
+  "elim order": 1
+ },
+ {
+  "team": "ARI",
+  "elim order": 2
+ },
+ {
+  "team": "BUF",
+  "elim order": 3
+ },
+ {
+  "team": "CHI",
+  "elim order": 4
+ },
+ {
+  "team": "MTL",
+  "elim order": 5
+ },
+ {
+  "team": "OTT",
+  "elim order": 5
+ },
+ {
+  "team": "DET",
+  "elim order": 5
+ },
+ {
+  "team": "EDM",
+  "elim order": 5
+ },
+ {
+  "team": "NYI",
+  "elim order": 9
+ },
+ {
+  "team": "NYR",
+  "elim order": 10
+ },
+ {
+  "team": "CGY",
+  "elim order": 10
+ },
+ {
+  "team": "CAR",
+  "elim order": 12
+ },
+ {
+  "team": "DAL",
+  "elim order": 13
+ },
+ {
+  "team": "FLA",
+  "elim order": 14
+ },
+ {
+  "team": "STL",
+  "elim order": 14
+ },
+ {
+  "team": "LAK",
+  "elim order": 16
+ },
+ {
+  "team": "ANA",
+  "elim order": 17
+ },
+ {
+  "team": "MIN",
+  "elim order": 18
+ },
+ {
+  "team": "NJD",
+  "elim order": 19
+ },
+ {
+  "team": "PHI",
+  "elim order": 20
+ },
+ {
+  "team": "COL",
+  "elim order": 20
+ },
+ {
+  "team": "CBJ",
+  "elim order": 22
+ },
+ {
+  "team": "TOR",
+  "elim order": 23
+ },
+ {
+  "team": "BOS",
+  "elim order": 24
+ },
+ {
+  "team": "SJS",
+  "elim order": 24
+ },
+ {
+  "team": "PIT",
+  "elim order": 26
+ },
+ {
+  "team": "NSH",
+  "elim order": 27
+ },
+ {
+  "team": "WPG",
+  "elim order": 28
+ },
+ {
+  "team": "TBL",
+  "elim order": 29
+ },
+ {
+  "team": "VGK",
+  "elim order": 30
+ },
+ {
+  "team": "WSH",
+  "elim order": 31
+ }
+],
+"2017":[
+ {
+  "team": "COL",
+  "elim order": 1
+ },
+ {
+  "team": "ARI",
+  "elim order": 2
+ },
+ {
+  "team": "NJD",
+  "elim order": 3
+ },
+ {
+  "team": "VAN",
+  "elim order": 3
+ },
+ {
+  "team": "DAL",
+  "elim order": 5
+ },
+ {
+  "team": "WPG",
+  "elim order": 5
+ },
+ {
+  "team": "BUF",
+  "elim order": 7
+ },
+ {
+  "team": "FLA",
+  "elim order": 7
+ },
+ {
+  "team": "DET",
+  "elim order": 7
+ },
+ {
+  "team": "PHI",
+  "elim order": 10
+ },
+ {
+  "team": "LAK",
+  "elim order": 10
+ },
+ {
+  "team": "CAR",
+  "elim order": 12
+ },
+ {
+  "team": "NYI",
+  "elim order": 13
+ },
+ {
+  "team": "TBL",
+  "elim order": 13
+ },
+ {
+  "team": "CGY",
+  "elim order": 15
+ },
+ {
+  "team": "CBJ",
+  "elim order": 16
+ },
+ {
+  "team": "CHI",
+  "elim order": 16
+ },
+ {
+  "team": "MTL",
+  "elim order": 18
+ },
+ {
+  "team": "MIN",
+  "elim order": 18
+ },
+ {
+  "team": "SJS",
+  "elim order": 18
+ },
+ {
+  "team": "BOS",
+  "elim order": 21
+ },
+ {
+  "team": "TOR",
+  "elim order": 21
+ },
+ {
+  "team": "STL",
+  "elim order": 23
+ },
+ {
+  "team": "NYR",
+  "elim order": 24
+ },
+ {
+  "team": "WSH",
+  "elim order": 25
+ },
+ {
+  "team": "EDM",
+  "elim order": 25
+ },
+ {
+  "team": "ANA",
+  "elim order": 27
+ },
+ {
+  "team": "OTT",
+  "elim order": 28
+ },
+ {
+  "team": "NSH",
+  "elim order": 29
+ },
+ {
+  "team": "PIT",
+  "elim order": 30
+ }
+],
+"2016":[
+ {
+  "team": "EDM",
+  "elim order": 1
+ },
+ {
+  "team": "TOR",
+  "elim order": 2
+ },
+ {
+  "team": "WPG",
+  "elim order": 3
+ },
+ {
+  "team": "CGY",
+  "elim order": 3
+ },
+ {
+  "team": "CBJ",
+  "elim order": 5
+ },
+ {
+  "team": "VAN",
+  "elim order": 6
+ },
+ {
+  "team": "MTL",
+  "elim order": 7
+ },
+ {
+  "team": "BUF",
+  "elim order": 7
+ },
+ {
+  "team": "ARI",
+  "elim order": 9
+ },
+ {
+  "team": "OTT",
+  "elim order": 10
+ },
+ {
+  "team": "NJD",
+  "elim order": 10
+ },
+ {
+  "team": "CAR",
+  "elim order": 10
+ },
+ {
+  "team": "COL",
+  "elim order": 13
+ },
+ {
+  "team": "BOS",
+  "elim order": 14
+ },
+ {
+  "team": "DET",
+  "elim order": 15
+ },
+ {
+  "team": "LAK",
+  "elim order": 16
+ },
+ {
+  "team": "NYR",
+  "elim order": 17
+ },
+ {
+  "team": "PHI",
+  "elim order": 18
+ },
+ {
+  "team": "FLA",
+  "elim order": 18
+ },
+ {
+  "team": "MIN",
+  "elim order": 18
+ },
+ {
+  "team": "CHI",
+  "elim order": 21
+ },
+ {
+  "team": "ANA",
+  "elim order": 22
+ },
+ {
+  "team": "NYI",
+  "elim order": 23
+ },
+ {
+  "team": "WSH",
+  "elim order": 24
+ },
+ {
+  "team": "DAL",
+  "elim order": 25
+ },
+ {
+  "team": "NSH",
+  "elim order": 26
+ },
+ {
+  "team": "STL",
+  "elim order": 27
+ },
+ {
+  "team": "TBL",
+  "elim order": 28
+ },
+ {
+  "team": "SJS",
+  "elim order": 29
+ },
+ {
+  "team": "PIT",
+  "elim order": 30
+ }
+],
+"2015":[
+ {
+  "team": "BUF",
+  "elim order": 1
+ },
+ {
+  "team": "EDM",
+  "elim order": 2
+ },
+ {
+  "team": "ARI",
+  "elim order": 3
+ },
+ {
+  "team": "TOR",
+  "elim order": 4
+ },
+ {
+  "team": "CAR",
+  "elim order": 5
+ },
+ {
+  "team": "NJD",
+  "elim order": 6
+ },
+ {
+  "team": "PHI",
+  "elim order": 7
+ },
+ {
+  "team": "CBJ",
+  "elim order": 7
+ },
+ {
+  "team": "FLA",
+  "elim order": 9
+ },
+ {
+  "team": "COL",
+  "elim order": 9
+ },
+ {
+  "team": "DAL",
+  "elim order": 11
+ },
+ {
+  "team": "SJS",
+  "elim order": 11
+ },
+ {
+  "team": "LAK",
+  "elim order": 13
+ },
+ {
+  "team": "BOS",
+  "elim order": 14
+ },
+ {
+  "team": "WPG",
+  "elim order": 15
+ },
+ {
+  "team": "PIT",
+  "elim order": 16
+ },
+ {
+  "team": "NSH",
+  "elim order": 17
+ },
+ {
+  "team": "VAN",
+  "elim order": 17
+ },
+ {
+  "team": "OTT",
+  "elim order": 19
+ },
+ {
+  "team": "STL",
+  "elim order": 19
+ },
+ {
+  "team": "NYI",
+  "elim order": 21
+ },
+ {
+  "team": "DET",
+  "elim order": 22
+ },
+ {
+  "team": "MIN",
+  "elim order": 23
+ },
+ {
+  "team": "CGY",
+  "elim order": 24
+ },
+ {
+  "team": "MTL",
+  "elim order": 25
+ },
+ {
+  "team": "WSH",
+  "elim order": 26
+ },
+ {
+  "team": "NYR",
+  "elim order": 27
+ },
+ {
+  "team": "ANA",
+  "elim order": 28
+ },
+ {
+  "team": "TBL",
+  "elim order": 29
+ },
+ {
+  "team": "CHI",
+  "elim order": 30
+ }
+],
+"2014":[
+ {
+  "team": "BUF",
+  "elim order": 1
+ },
+ {
+  "team": "EDM",
+  "elim order": 2
+ },
+ {
+  "team": "FLA",
+  "elim order": 3
+ },
+ {
+  "team": "CGY",
+  "elim order": 4
+ },
+ {
+  "team": "NYI",
+  "elim order": 5
+ },
+ {
+  "team": "WPG",
+  "elim order": 6
+ },
+ {
+  "team": "OTT",
+  "elim order": 7
+ },
+ {
+  "team": "TOR",
+  "elim order": 7
+ },
+ {
+  "team": "CAR",
+  "elim order": 7
+ },
+ {
+  "team": "NSH",
+  "elim order": 7
+ },
+ {
+  "team": "VAN",
+  "elim order": 7
+ },
+ {
+  "team": "NJD",
+  "elim order": 12
+ },
+ {
+  "team": "WSH",
+  "elim order": 12
+ },
+ {
+  "team": "PHX",
+  "elim order": 14
+ },
+ {
+  "team": "TBL",
+  "elim order": 15
+ },
+ {
+  "team": "DET",
+  "elim order": 16
+ },
+ {
+  "team": "DAL",
+  "elim order": 17
+ },
+ {
+  "team": "STL",
+  "elim order": 17
+ },
+ {
+  "team": "CBJ",
+  "elim order": 19
+ },
+ {
+  "team": "PHI",
+  "elim order": 20
+ },
+ {
+  "team": "COL",
+  "elim order": 20
+ },
+ {
+  "team": "SJS",
+  "elim order": 20
+ },
+ {
+  "team": "PIT",
+  "elim order": 23
+ },
+ {
+  "team": "MIN",
+  "elim order": 23
+ },
+ {
+  "team": "BOS",
+  "elim order": 25
+ },
+ {
+  "team": "ANA",
+  "elim order": 26
+ },
+ {
+  "team": "MTL",
+  "elim order": 27
+ },
+ {
+  "team": "CHI",
+  "elim order": 28
+ },
+ {
+  "team": "NYR",
+  "elim order": 29
+ },
+ {
+  "team": "LAK",
+  "elim order": 30
+ }
+],
+"2013":[
+ {
+  "team": "COL",
+  "elim order": 1
+ },
+ {
+  "team": "NSH",
+  "elim order": 2
+ },
+ {
+  "team": "FLA",
+  "elim order": 3
+ },
+ {
+  "team": "CGY",
+  "elim order": 4
+ },
+ {
+  "team": "CAR",
+  "elim order": 5
+ },
+ {
+  "team": "TBL",
+  "elim order": 5
+ },
+ {
+  "team": "PHI",
+  "elim order": 7
+ },
+ {
+  "team": "NJD",
+  "elim order": 8
+ },
+ {
+  "team": "BUF",
+  "elim order": 9
+ },
+ {
+  "team": "EDM",
+  "elim order": 10
+ },
+ {
+  "team": "WPG",
+  "elim order": 11
+ },
+ {
+  "team": "DAL",
+  "elim order": 11
+ },
+ {
+  "team": "PHX",
+  "elim order": 11
+ },
+ {
+  "team": "CBJ",
+  "elim order": 14
+ },
+ {
+  "team": "VAN",
+  "elim order": 15
+ },
+ {
+  "team": "MTL",
+  "elim order": 16
+ },
+ {
+  "team": "MIN",
+  "elim order": 16
+ },
+ {
+  "team": "STL",
+  "elim order": 18
+ },
+ {
+  "team": "NYI",
+  "elim order": 19
+ },
+ {
+  "team": "ANA",
+  "elim order": 20
+ },
+ {
+  "team": "TOR",
+  "elim order": 21
+ },
+ {
+  "team": "WSH",
+  "elim order": 21
+ },
+ {
+  "team": "OTT",
+  "elim order": 23
+ },
+ {
+  "team": "NYR",
+  "elim order": 24
+ },
+ {
+  "team": "SJS",
+  "elim order": 25
+ },
+ {
+  "team": "DET",
+  "elim order": 26
+ },
+ {
+  "team": "PIT",
+  "elim order": 27
+ },
+ {
+  "team": "LAK",
+  "elim order": 28
+ },
+ {
+  "team": "BOS",
+  "elim order": 29
+ },
+ {
+  "team": "CHI",
+  "elim order": 30
+ }
+],
+"2012":[
+ {
+  "team": "CBJ",
+  "elim order": 1
+ },
+ {
+  "team": "EDM",
+  "elim order": 2
+ },
+ {
+  "team": "MTL",
+  "elim order": 3
+ },
+ {
+  "team": "MIN",
+  "elim order": 4
+ },
+ {
+  "team": "TOR",
+  "elim order": 5
+ },
+ {
+  "team": "ANA",
+  "elim order": 6
+ },
+ {
+  "team": "NYI",
+  "elim order": 7
+ },
+ {
+  "team": "CAR",
+  "elim order": 7
+ },
+ {
+  "team": "TBL",
+  "elim order": 9
+ },
+ {
+  "team": "WPG",
+  "elim order": 9
+ },
+ {
+  "team": "CGY",
+  "elim order": 11
+ },
+ {
+  "team": "BUF",
+  "elim order": 12
+ },
+ {
+  "team": "DAL",
+  "elim order": 12
+ },
+ {
+  "team": "COL",
+  "elim order": 12
+ },
+ {
+  "team": "DET",
+  "elim order": 15
+ },
+ {
+  "team": "SJS",
+  "elim order": 16
+ },
+ {
+  "team": "PIT",
+  "elim order": 17
+ },
+ {
+  "team": "VAN",
+  "elim order": 17
+ },
+ {
+  "team": "CHI",
+  "elim order": 19
+ },
+ {
+  "team": "BOS",
+  "elim order": 20
+ },
+ {
+  "team": "OTT",
+  "elim order": 21
+ },
+ {
+  "team": "FLA",
+  "elim order": 21
+ },
+ {
+  "team": "STL",
+  "elim order": 23
+ },
+ {
+  "team": "NSH",
+  "elim order": 24
+ },
+ {
+  "team": "PHI",
+  "elim order": 25
+ },
+ {
+  "team": "WSH",
+  "elim order": 26
+ },
+ {
+  "team": "PHX",
+  "elim order": 27
+ },
+ {
+  "team": "NYR",
+  "elim order": 28
+ },
+ {
+  "team": "NJD",
+  "elim order": 29
+ },
+ {
+  "team": "LAK",
+  "elim order": 30
+ }
+],
+"2011":[
+ {
+  "team": "EDM",
+  "elim order": 1
+ },
+ {
+  "team": "COL",
+  "elim order": 2
+ },
+ {
+  "team": "OTT",
+  "elim order": 3
+ },
+ {
+  "team": "FLA",
+  "elim order": 3
+ },
+ {
+  "team": "NYI",
+  "elim order": 5
+ },
+ {
+  "team": "CBJ",
+  "elim order": 6
+ },
+ {
+  "team": "STL",
+  "elim order": 6
+ },
+ {
+  "team": "NJD",
+  "elim order": 8
+ },
+ {
+  "team": "ATL",
+  "elim order": 8
+ },
+ {
+  "team": "MIN",
+  "elim order": 8
+ },
+ {
+  "team": "TOR",
+  "elim order": 11
+ },
+ {
+  "team": "CGY",
+  "elim order": 12
+ },
+ {
+  "team": "CAR",
+  "elim order": 13
+ },
+ {
+  "team": "DAL",
+  "elim order": 14
+ },
+ {
+  "team": "PHX",
+  "elim order": 15
+ },
+ {
+  "team": "NYR",
+  "elim order": 16
+ },
+ {
+  "team": "ANA",
+  "elim order": 17
+ },
+ {
+  "team": "LAK",
+  "elim order": 18
+ },
+ {
+  "team": "BUF",
+  "elim order": 19
+ },
+ {
+  "team": "CHI",
+  "elim order": 19
+ },
+ {
+  "team": "MTL",
+  "elim order": 21
+ },
+ {
+  "team": "PIT",
+  "elim order": 21
+ },
+ {
+  "team": "WSH",
+  "elim order": 23
+ },
+ {
+  "team": "PHI",
+  "elim order": 24
+ },
+ {
+  "team": "NSH",
+  "elim order": 25
+ },
+ {
+  "team": "DET",
+  "elim order": 26
+ },
+ {
+  "team": "SJS",
+  "elim order": 27
+ },
+ {
+  "team": "TBL",
+  "elim order": 28
+ },
+ {
+  "team": "VAN",
+  "elim order": 29
+ },
+ {
+  "team": "BOS",
+  "elim order": 30
+ }
+],
+"2010":[
+ {
+  "team": "EDM",
+  "elim order": 1
+ },
+ {
+  "team": "CBJ",
+  "elim order": 2
+ },
+ {
+  "team": "TOR",
+  "elim order": 3
+ },
+ {
+  "team": "MIN",
+  "elim order": 4
+ },
+ {
+  "team": "TBL",
+  "elim order": 5
+ },
+ {
+  "team": "FLA",
+  "elim order": 5
+ },
+ {
+  "team": "CAR",
+  "elim order": 5
+ },
+ {
+  "team": "DAL",
+  "elim order": 5
+ },
+ {
+  "team": "NYI",
+  "elim order": 9
+ },
+ {
+  "team": "STL",
+  "elim order": 9
+ },
+ {
+  "team": "CGY",
+  "elim order": 9
+ },
+ {
+  "team": "ANA",
+  "elim order": 9
+ },
+ {
+  "team": "ATL",
+  "elim order": 13
+ },
+ {
+  "team": "NYR",
+  "elim order": 14
+ },
+ {
+  "team": "NJD",
+  "elim order": 15
+ },
+ {
+  "team": "OTT",
+  "elim order": 16
+ },
+ {
+  "team": "COL",
+  "elim order": 16
+ },
+ {
+  "team": "LAK",
+  "elim order": 18
+ },
+ {
+  "team": "BUF",
+  "elim order": 19
+ },
+ {
+  "team": "NSH",
+  "elim order": 19
+ },
+ {
+  "team": "PHX",
+  "elim order": 21
+ },
+ {
+  "team": "WSH",
+  "elim order": 22
+ },
+ {
+  "team": "DET",
+  "elim order": 23
+ },
+ {
+  "team": "VAN",
+  "elim order": 24
+ },
+ {
+  "team": "PIT",
+  "elim order": 25
+ },
+ {
+  "team": "BOS",
+  "elim order": 26
+ },
+ {
+  "team": "SJS",
+  "elim order": 27
+ },
+ {
+  "team": "MTL",
+  "elim order": 28
+ },
+ {
+  "team": "PHI",
+  "elim order": 29
+ },
+ {
+  "team": "CHI",
+  "elim order": 30
+ }
+],
+"2009":[
+ {
+  "team": "NYI",
+  "elim order": 1
+ },
+ {
+  "team": "TBL",
+  "elim order": 2
+ },
+ {
+  "team": "ATL",
+  "elim order": 2
+ },
+ {
+  "team": "COL",
+  "elim order": 4
+ },
+ {
+  "team": "TOR",
+  "elim order": 5
+ },
+ {
+  "team": "PHX",
+  "elim order": 5
+ },
+ {
+  "team": "OTT",
+  "elim order": 7
+ },
+ {
+  "team": "LAK",
+  "elim order": 7
+ },
+ {
+  "team": "DAL",
+  "elim order": 9
+ },
+ {
+  "team": "EDM",
+  "elim order": 9
+ },
+ {
+  "team": "FLA",
+  "elim order": 11
+ },
+ {
+  "team": "BUF",
+  "elim order": 11
+ },
+ {
+  "team": "NSH",
+  "elim order": 13
+ },
+ {
+  "team": "MIN",
+  "elim order": 13
+ },
+ {
+  "team": "STL",
+  "elim order": 15
+ },
+ {
+  "team": "MTL",
+  "elim order": 16
+ },
+ {
+  "team": "CBJ",
+  "elim order": 17
+ },
+ {
+  "team": "PHI",
+  "elim order": 18
+ },
+ {
+  "team": "CGY",
+  "elim order": 19
+ },
+ {
+  "team": "SJS",
+  "elim order": 19
+ },
+ {
+  "team": "NJD",
+  "elim order": 21
+ },
+ {
+  "team": "NYR",
+  "elim order": 21
+ },
+ {
+  "team": "VAN",
+  "elim order": 23
+ },
+ {
+  "team": "WSH",
+  "elim order": 24
+ },
+ {
+  "team": "BOS",
+  "elim order": 25
+ },
+ {
+  "team": "ANA",
+  "elim order": 25
+ },
+ {
+  "team": "CAR",
+  "elim order": 27
+ },
+ {
+  "team": "CHI",
+  "elim order": 28
+ },
+ {
+  "team": "DET",
+  "elim order": 29
+ },
+ {
+  "team": "PIT",
+  "elim order": 30
+ }
+],
+"2008":[
+ {
+  "team": "LAK",
+  "elim order": 1
+ },
+ {
+  "team": "TBL",
+  "elim order": 2
+ },
+ {
+  "team": "ATL",
+  "elim order": 2
+ },
+ {
+  "team": "NYI",
+  "elim order": 4
+ },
+ {
+  "team": "STL",
+  "elim order": 4
+ },
+ {
+  "team": "FLA",
+  "elim order": 6
+ },
+ {
+  "team": "TOR",
+  "elim order": 6
+ },
+ {
+  "team": "CBJ",
+  "elim order": 8
+ },
+ {
+  "team": "PHX",
+  "elim order": 8
+ },
+ {
+  "team": "EDM",
+  "elim order": 10
+ },
+ {
+  "team": "BUF",
+  "elim order": 11
+ },
+ {
+  "team": "CHI",
+  "elim order": 11
+ },
+ {
+  "team": "VAN",
+  "elim order": 11
+ },
+ {
+  "team": "CAR",
+  "elim order": 14
+ },
+ {
+  "team": "OTT",
+  "elim order": 15
+ },
+ {
+  "team": "NJD",
+  "elim order": 16
+ },
+ {
+  "team": "MIN",
+  "elim order": 17
+ },
+ {
+  "team": "NSH",
+  "elim order": 18
+ },
+ {
+  "team": "ANA",
+  "elim order": 18
+ },
+ {
+  "team": "BOS",
+  "elim order": 20
+ },
+ {
+  "team": "WSH",
+  "elim order": 21
+ },
+ {
+  "team": "CGY",
+  "elim order": 21
+ },
+ {
+  "team": "COL",
+  "elim order": 23
+ },
+ {
+  "team": "MTL",
+  "elim order": 24
+ },
+ {
+  "team": "NYR",
+  "elim order": 25
+ },
+ {
+  "team": "SJS",
+  "elim order": 25
+ },
+ {
+  "team": "PHI",
+  "elim order": 27
+ },
+ {
+  "team": "DAL",
+  "elim order": 28
+ },
+ {
+  "team": "PIT",
+  "elim order": 29
+ },
+ {
+  "team": "DET",
+  "elim order": 30
+ }
+],
+"2007":[
+ {
+  "team": "PHI",
+  "elim order": 1
+ },
+ {
+  "team": "LAK",
+  "elim order": 1
+ },
+ {
+  "team": "PHX",
+  "elim order": 3
+ },
+ {
+  "team": "CBJ",
+  "elim order": 4
+ },
+ {
+  "team": "CHI",
+  "elim order": 5
+ },
+ {
+  "team": "EDM",
+  "elim order": 5
+ },
+ {
+  "team": "WSH",
+  "elim order": 7
+ },
+ {
+  "team": "BOS",
+  "elim order": 8
+ },
+ {
+  "team": "STL",
+  "elim order": 9
+ },
+ {
+  "team": "FLA",
+  "elim order": 10
+ },
+ {
+  "team": "CAR",
+  "elim order": 11
+ },
+ {
+  "team": "MTL",
+  "elim order": 12
+ },
+ {
+  "team": "COL",
+  "elim order": 12
+ },
+ {
+  "team": "TOR",
+  "elim order": 14
+ },
+ {
+  "team": "ATL",
+  "elim order": 15
+ },
+ {
+  "team": "PIT",
+  "elim order": 16
+ },
+ {
+  "team": "MIN",
+  "elim order": 16
+ },
+ {
+  "team": "NYI",
+  "elim order": 18
+ },
+ {
+  "team": "NSH",
+  "elim order": 18
+ },
+ {
+  "team": "TBL",
+  "elim order": 20
+ },
+ {
+  "team": "CGY",
+  "elim order": 20
+ },
+ {
+  "team": "DAL",
+  "elim order": 22
+ },
+ {
+  "team": "VAN",
+  "elim order": 23
+ },
+ {
+  "team": "NJD",
+  "elim order": 24
+ },
+ {
+  "team": "NYR",
+  "elim order": 25
+ },
+ {
+  "team": "SJS",
+  "elim order": 26
+ },
+ {
+  "team": "BUF",
+  "elim order": 27
+ },
+ {
+  "team": "DET",
+  "elim order": 28
+ },
+ {
+  "team": "OTT",
+  "elim order": 29
+ },
+ {
+  "team": "ANA",
+  "elim order": 30
+ }
+],
+"2006":[
+ {
+  "team": "PIT",
+  "elim order": 1
+ },
+ {
+  "team": "CHI",
+  "elim order": 2
+ },
+ {
+  "team": "STL",
+  "elim order": 2
+ },
+ {
+  "team": "CBJ",
+  "elim order": 4
+ },
+ {
+  "team": "WSH",
+  "elim order": 5
+ },
+ {
+  "team": "BOS",
+  "elim order": 6
+ },
+ {
+  "team": "NYI",
+  "elim order": 7
+ },
+ {
+  "team": "PHX",
+  "elim order": 7
+ },
+ {
+  "team": "MIN",
+  "elim order": 9
+ },
+ {
+  "team": "FLA",
+  "elim order": 10
+ },
+ {
+  "team": "LAK",
+  "elim order": 11
+ },
+ {
+  "team": "VAN",
+  "elim order": 11
+ },
+ {
+  "team": "TOR",
+  "elim order": 13
+ },
+ {
+  "team": "ATL",
+  "elim order": 14
+ },
+ {
+  "team": "TBL",
+  "elim order": 15
+ },
+ {
+  "team": "NYR",
+  "elim order": 15
+ },
+ {
+  "team": "NSH",
+  "elim order": 17
+ },
+ {
+  "team": "DAL",
+  "elim order": 17
+ },
+ {
+  "team": "DET",
+  "elim order": 19
+ },
+ {
+  "team": "PHI",
+  "elim order": 20
+ },
+ {
+  "team": "MTL",
+  "elim order": 20
+ },
+ {
+  "team": "CGY",
+  "elim order": 22
+ },
+ {
+  "team": "COL",
+  "elim order": 23
+ },
+ {
+  "team": "OTT",
+  "elim order": 24
+ },
+ {
+  "team": "NJD",
+  "elim order": 25
+ },
+ {
+  "team": "SJS",
+  "elim order": 26
+ },
+ {
+  "team": "ANA",
+  "elim order": 27
+ },
+ {
+  "team": "BUF",
+  "elim order": 28
+ },
+ {
+  "team": "EDM",
+  "elim order": 29
+ },
+ {
+  "team": "CAR",
+  "elim order": 30
+ }
+],
+"2004":[
+ {
+  "team": "PIT",
+  "elim order": 1
+ },
+ {
+  "team": "CBJ",
+  "elim order": 2
+ },
+ {
+  "team": "WSH",
+  "elim order": 3
+ },
+ {
+  "team": "CHI",
+  "elim order": 4
+ },
+ {
+  "team": "PHX",
+  "elim order": 5
+ },
+ {
+  "team": "NYR",
+  "elim order": 6
+ },
+ {
+  "team": "CAR",
+  "elim order": 7
+ },
+ {
+  "team": "FLA",
+  "elim order": 8
+ },
+ {
+  "team": "ATL",
+  "elim order": 8
+ },
+ {
+  "team": "ANA",
+  "elim order": 8
+ },
+ {
+  "team": "MIN",
+  "elim order": 11
+ },
+ {
+  "team": "LAK",
+  "elim order": 12
+ },
+ {
+  "team": "BUF",
+  "elim order": 13
+ },
+ {
+  "team": "EDM",
+  "elim order": 14
+ },
+ {
+  "team": "STL",
+  "elim order": 15
+ },
+ {
+  "team": "NYI",
+  "elim order": 16
+ },
+ {
+  "team": "NJD",
+  "elim order": 17
+ },
+ {
+  "team": "NSH",
+  "elim order": 17
+ },
+ {
+  "team": "DAL",
+  "elim order": 17
+ },
+ {
+  "team": "BOS",
+  "elim order": 20
+ },
+ {
+  "team": "VAN",
+  "elim order": 20
+ },
+ {
+  "team": "OTT",
+  "elim order": 22
+ },
+ {
+  "team": "MTL",
+  "elim order": 23
+ },
+ {
+  "team": "DET",
+  "elim order": 24
+ },
+ {
+  "team": "TOR",
+  "elim order": 25
+ },
+ {
+  "team": "COL",
+  "elim order": 25
+ },
+ {
+  "team": "SJS",
+  "elim order": 27
+ },
+ {
+  "team": "PHI",
+  "elim order": 28
+ },
+ {
+  "team": "CGY",
+  "elim order": 29
+ },
+ {
+  "team": "TBL",
+  "elim order": 30
+ }
+],
+"2003":[
+ {
+  "team": "CAR",
+  "elim order": 1
+ },
+ {
+  "team": "PIT",
+  "elim order": 1
+ },
+ {
+  "team": "CBJ",
+  "elim order": 1
+ },
+ {
+  "team": "CGY",
+  "elim order": 4
+ },
+ {
+  "team": "SJS",
+  "elim order": 4
+ },
+ {
+  "team": "CHI",
+  "elim order": 6
+ },
+ {
+  "team": "ATL",
+  "elim order": 7
+ },
+ {
+  "team": "BUF",
+  "elim order": 7
+ },
+ {
+  "team": "FLA",
+  "elim order": 9
+ },
+ {
+  "team": "LAK",
+  "elim order": 9
+ },
+ {
+  "team": "NSH",
+  "elim order": 11
+ },
+ {
+  "team": "PHX",
+  "elim order": 11
+ },
+ {
+  "team": "MTL",
+  "elim order": 13
+ },
+ {
+  "team": "NYR",
+  "elim order": 14
+ },
+ {
+  "team": "DET",
+  "elim order": 15
+ },
+ {
+  "team": "NYI",
+  "elim order": 16
+ },
+ {
+  "team": "BOS",
+  "elim order": 16
+ },
+ {
+  "team": "EDM",
+  "elim order": 18
+ },
+ {
+  "team": "WSH",
+  "elim order": 19
+ },
+ {
+  "team": "TOR",
+  "elim order": 20
+ },
+ {
+  "team": "STL",
+  "elim order": 20
+ },
+ {
+  "team": "COL",
+  "elim order": 20
+ },
+ {
+  "team": "TBL",
+  "elim order": 23
+ },
+ {
+  "team": "PHI",
+  "elim order": 24
+ },
+ {
+  "team": "DAL",
+  "elim order": 24
+ },
+ {
+  "team": "VAN",
+  "elim order": 26
+ },
+ {
+  "team": "MIN",
+  "elim order": 27
+ },
+ {
+  "team": "OTT",
+  "elim order": 28
+ },
+ {
+  "team": "ANA",
+  "elim order": 29
+ },
+ {
+  "team": "NJD",
+  "elim order": 30
+ }
+],
+"2002":[
+ {
+  "team": "CBJ",
+  "elim order": 1
+ },
+ {
+  "team": "ATL",
+  "elim order": 2
+ },
+ {
+  "team": "FLA",
+  "elim order": 3
+ },
+ {
+  "team": "ANA",
+  "elim order": 4
+ },
+ {
+  "team": "NSH",
+  "elim order": 5
+ },
+ {
+  "team": "MIN",
+  "elim order": 6
+ },
+ {
+  "team": "TBL",
+  "elim order": 7
+ },
+ {
+  "team": "PIT",
+  "elim order": 8
+ },
+ {
+  "team": "CGY",
+  "elim order": 9
+ },
+ {
+  "team": "NYR",
+  "elim order": 10
+ },
+ {
+  "team": "BUF",
+  "elim order": 11
+ },
+ {
+  "team": "WSH",
+  "elim order": 12
+ },
+ {
+  "team": "DAL",
+  "elim order": 13
+ },
+ {
+  "team": "EDM",
+  "elim order": 14
+ },
+ {
+  "team": "CHI",
+  "elim order": 15
+ },
+ {
+  "team": "PHI",
+  "elim order": 16
+ },
+ {
+  "team": "PHX",
+  "elim order": 16
+ },
+ {
+  "team": "NJD",
+  "elim order": 18
+ },
+ {
+  "team": "VAN",
+  "elim order": 18
+ },
+ {
+  "team": "BOS",
+  "elim order": 20
+ },
+ {
+  "team": "LAK",
+  "elim order": 20
+ },
+ {
+  "team": "NYI",
+  "elim order": 22
+ },
+ {
+  "team": "STL",
+  "elim order": 23
+ },
+ {
+  "team": "MTL",
+  "elim order": 24
+ },
+ {
+  "team": "OTT",
+  "elim order": 25
+ },
+ {
+  "team": "SJS",
+  "elim order": 26
+ },
+ {
+  "team": "TOR",
+  "elim order": 27
+ },
+ {
+  "team": "COL",
+  "elim order": 28
+ },
+ {
+  "team": "CAR",
+  "elim order": 29
+ },
+ {
+  "team": "DET",
+  "elim order": 30
+ }
+],
+"2001":[
+ {
+  "team": "NYI",
+  "elim order": 1
+ },
+ {
+  "team": "FLA",
+  "elim order": 2
+ },
+ {
+  "team": "TBL",
+  "elim order": 2
+ },
+ {
+  "team": "ATL",
+  "elim order": 2
+ },
+ {
+  "team": "ANA",
+  "elim order": 5
+ },
+ {
+  "team": "MIN",
+  "elim order": 6
+ },
+ {
+  "team": "CBJ",
+  "elim order": 7
+ },
+ {
+  "team": "MTL",
+  "elim order": 8
+ },
+ {
+  "team": "CGY",
+  "elim order": 9
+ },
+ {
+  "team": "NYR",
+  "elim order": 10
+ },
+ {
+  "team": "CHI",
+  "elim order": 11
+ },
+ {
+  "team": "NSH",
+  "elim order": 12
+ },
+ {
+  "team": "PHX",
+  "elim order": 13
+ },
+ {
+  "team": "BOS",
+  "elim order": 14
+ },
+ {
+  "team": "OTT",
+  "elim order": 15
+ },
+ {
+  "team": "VAN",
+  "elim order": 15
+ },
+ {
+  "team": "PHI",
+  "elim order": 17
+ },
+ {
+  "team": "EDM",
+  "elim order": 17
+ },
+ {
+  "team": "SJS",
+  "elim order": 17
+ },
+ {
+  "team": "CAR",
+  "elim order": 20
+ },
+ {
+  "team": "WSH",
+  "elim order": 21
+ },
+ {
+  "team": "DET",
+  "elim order": 21
+ },
+ {
+  "team": "DAL",
+  "elim order": 23
+ },
+ {
+  "team": "TOR",
+  "elim order": 24
+ },
+ {
+  "team": "LAK",
+  "elim order": 24
+ },
+ {
+  "team": "BUF",
+  "elim order": 26
+ },
+ {
+  "team": "STL",
+  "elim order": 27
+ },
+ {
+  "team": "PIT",
+  "elim order": 28
+ },
+ {
+  "team": "NJD",
+  "elim order": 29
+ },
+ {
+  "team": "COL",
+  "elim order": 30
+ }
+],
+"2000":[
+ {
+  "team": "ATL",
+  "elim order": 1
+ },
+ {
+  "team": "NYI",
+  "elim order": 2
+ },
+ {
+  "team": "TBL",
+  "elim order": 3
+ },
+ {
+  "team": "NSH",
+  "elim order": 4
+ },
+ {
+  "team": "CHI",
+  "elim order": 5
+ },
+ {
+  "team": "BOS",
+  "elim order": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 6
+ },
+ {
+  "team": "CGY",
+  "elim order": 8
+ },
+ {
+  "team": "ANA",
+  "elim order": 9
+ },
+ {
+  "team": "VAN",
+  "elim order": 9
+ },
+ {
+  "team": "MTL",
+  "elim order": 11
+ },
+ {
+  "team": "CAR",
+  "elim order": 12
+ },
+ {
+  "team": "LAK",
+  "elim order": 13
+ },
+ {
+  "team": "BUF",
+  "elim order": 14
+ },
+ {
+  "team": "FLA",
+  "elim order": 14
+ },
+ {
+  "team": "WSH",
+  "elim order": 16
+ },
+ {
+  "team": "EDM",
+  "elim order": 16
+ },
+ {
+  "team": "PHX",
+  "elim order": 16
+ },
+ {
+  "team": "OTT",
+  "elim order": 19
+ },
+ {
+  "team": "STL",
+  "elim order": 20
+ },
+ {
+  "team": "DET",
+  "elim order": 21
+ },
+ {
+  "team": "SJS",
+  "elim order": 22
+ },
+ {
+  "team": "TOR",
+  "elim order": 23
+ },
+ {
+  "team": "PIT",
+  "elim order": 24
+ },
+ {
+  "team": "PHI",
+  "elim order": 25
+ },
+ {
+  "team": "COL",
+  "elim order": 26
+ },
+ {
+  "team": "DAL",
+  "elim order": 27
+ },
+ {
+  "team": "NJD",
+  "elim order": 28
+ }
+],
+"1999":[
+ {
+  "team": "TBL",
+  "elim order": 1
+ },
+ {
+  "team": "NYI",
+  "elim order": 2
+ },
+ {
+  "team": "VAN",
+  "elim order": 3
+ },
+ {
+  "team": "WSH",
+  "elim order": 4
+ },
+ {
+  "team": "MTL",
+  "elim order": 5
+ },
+ {
+  "team": "NYR",
+  "elim order": 6
+ },
+ {
+  "team": "FLA",
+  "elim order": 7
+ },
+ {
+  "team": "CHI",
+  "elim order": 8
+ },
+ {
+  "team": "NSH",
+  "elim order": 9
+ },
+ {
+  "team": "LAK",
+  "elim order": 10
+ },
+ {
+  "team": "CGY",
+  "elim order": 11
+ },
+ {
+  "team": "OTT",
+  "elim order": 12
+ },
+ {
+  "team": "EDM",
+  "elim order": 12
+ },
+ {
+  "team": "ANA",
+  "elim order": 12
+ },
+ {
+  "team": "CAR",
+  "elim order": 15
+ },
+ {
+  "team": "PHI",
+  "elim order": 15
+ },
+ {
+  "team": "SJS",
+  "elim order": 17
+ },
+ {
+  "team": "NJD",
+  "elim order": 18
+ },
+ {
+  "team": "PHX",
+  "elim order": 18
+ },
+ {
+  "team": "PIT",
+  "elim order": 20
+ },
+ {
+  "team": "STL",
+  "elim order": 20
+ },
+ {
+  "team": "BOS",
+  "elim order": 22
+ },
+ {
+  "team": "DET",
+  "elim order": 22
+ },
+ {
+  "team": "TOR",
+  "elim order": 24
+ },
+ {
+  "team": "COL",
+  "elim order": 25
+ },
+ {
+  "team": "BUF",
+  "elim order": 26
+ },
+ {
+  "team": "DAL",
+  "elim order": 27
+ }
+],
+"1998":[
+ {
+  "team": "TBL",
+  "elim order": 1
+ },
+ {
+  "team": "FLA",
+  "elim order": 2
+ },
+ {
+  "team": "VAN",
+  "elim order": 3
+ },
+ {
+  "team": "NYR",
+  "elim order": 4
+ },
+ {
+  "team": "TOR",
+  "elim order": 5
+ },
+ {
+  "team": "ANA",
+  "elim order": 5
+ },
+ {
+  "team": "NYI",
+  "elim order": 7
+ },
+ {
+  "team": "CGY",
+  "elim order": 7
+ },
+ {
+  "team": "CAR",
+  "elim order": 9
+ },
+ {
+  "team": "CHI",
+  "elim order": 10
+ },
+ {
+  "team": "LAK",
+  "elim order": 11
+ },
+ {
+  "team": "PHI",
+  "elim order": 12
+ },
+ {
+  "team": "NJD",
+  "elim order": 13
+ },
+ {
+  "team": "SJS",
+  "elim order": 13
+ },
+ {
+  "team": "BOS",
+  "elim order": 15
+ },
+ {
+  "team": "PIT",
+  "elim order": 15
+ },
+ {
+  "team": "PHX",
+  "elim order": 15
+ },
+ {
+  "team": "COL",
+  "elim order": 18
+ },
+ {
+  "team": "MTL",
+  "elim order": 19
+ },
+ {
+  "team": "OTT",
+  "elim order": 20
+ },
+ {
+  "team": "EDM",
+  "elim order": 21
+ },
+ {
+  "team": "STL",
+  "elim order": 22
+ },
+ {
+  "team": "BUF",
+  "elim order": 23
+ },
+ {
+  "team": "DAL",
+  "elim order": 24
+ },
+ {
+  "team": "WSH",
+  "elim order": 25
+ },
+ {
+  "team": "DET",
+  "elim order": 26
+ }
+],
+"1997":[
+ {
+  "team": "SJS",
+  "elim order": 1
+ },
+ {
+  "team": "LAK",
+  "elim order": 2
+ },
+ {
+  "team": "BOS",
+  "elim order": 3
+ },
+ {
+  "team": "TOR",
+  "elim order": 3
+ },
+ {
+  "team": "NYI",
+  "elim order": 5
+ },
+ {
+  "team": "CGY",
+  "elim order": 6
+ },
+ {
+  "team": "VAN",
+  "elim order": 6
+ },
+ {
+  "team": "TBL",
+  "elim order": 8
+ },
+ {
+  "team": "HRT",
+  "elim order": 8
+ },
+ {
+  "team": "WSH",
+  "elim order": 8
+ },
+ {
+  "team": "FLA",
+  "elim order": 11
+ },
+ {
+  "team": "MTL",
+  "elim order": 12
+ },
+ {
+  "team": "PIT",
+  "elim order": 12
+ },
+ {
+  "team": "CHI",
+  "elim order": 12
+ },
+ {
+  "team": "STL",
+  "elim order": 15
+ },
+ {
+  "team": "OTT",
+  "elim order": 16
+ },
+ {
+  "team": "DAL",
+  "elim order": 16
+ },
+ {
+  "team": "PHX",
+  "elim order": 16
+ },
+ {
+  "team": "ANA",
+  "elim order": 19
+ },
+ {
+  "team": "BUF",
+  "elim order": 20
+ },
+ {
+  "team": "NJD",
+  "elim order": 20
+ },
+ {
+  "team": "EDM",
+  "elim order": 20
+ },
+ {
+  "team": "NYR",
+  "elim order": 23
+ },
+ {
+  "team": "COL",
+  "elim order": 24
+ },
+ {
+  "team": "PHI",
+  "elim order": 25
+ },
+ {
+  "team": "DET",
+  "elim order": 26
+ }
+],
+"1996":[
+ {
+  "team": "OTT",
+  "elim order": 1
+ },
+ {
+  "team": "SJS",
+  "elim order": 2
+ },
+ {
+  "team": "NYI",
+  "elim order": 3
+ },
+ {
+  "team": "BUF",
+  "elim order": 4
+ },
+ {
+  "team": "LAK",
+  "elim order": 5
+ },
+ {
+  "team": "DAL",
+  "elim order": 6
+ },
+ {
+  "team": "HRT",
+  "elim order": 7
+ },
+ {
+  "team": "EDM",
+  "elim order": 7
+ },
+ {
+  "team": "NJD",
+  "elim order": 9
+ },
+ {
+  "team": "ANA",
+  "elim order": 9
+ },
+ {
+  "team": "CGY",
+  "elim order": 11
+ },
+ {
+  "team": "TBL",
+  "elim order": 12
+ },
+ {
+  "team": "BOS",
+  "elim order": 12
+ },
+ {
+  "team": "TOR",
+  "elim order": 12
+ },
+ {
+  "team": "VAN",
+  "elim order": 12
+ },
+ {
+  "team": "MTL",
+  "elim order": 16
+ },
+ {
+  "team": "WSH",
+  "elim order": 16
+ },
+ {
+  "team": "WPG",
+  "elim order": 16
+ },
+ {
+  "team": "NYR",
+  "elim order": 19
+ },
+ {
+  "team": "CHI",
+  "elim order": 20
+ },
+ {
+  "team": "PHI",
+  "elim order": 21
+ },
+ {
+  "team": "STL",
+  "elim order": 22
+ },
+ {
+  "team": "DET",
+  "elim order": 23
+ },
+ {
+  "team": "PIT",
+  "elim order": 24
+ },
+ {
+  "team": "FLA",
+  "elim order": 25
+ },
+ {
+  "team": "COL",
+  "elim order": 26
+ }
+],
+"1995":[
+ {
+  "team": "OTT",
+  "elim order": 1
+ },
+ {
+  "team": "NYI",
+  "elim order": 2
+ },
+ {
+  "team": "TBL",
+  "elim order": 3
+ },
+ {
+  "team": "FLA",
+  "elim order": 4
+ },
+ {
+  "team": "HRT",
+  "elim order": 4
+ },
+ {
+  "team": "MTL",
+  "elim order": 6
+ },
+ {
+  "team": "EDM",
+  "elim order": 6
+ },
+ {
+  "team": "ANA",
+  "elim order": 6
+ },
+ {
+  "team": "WPG",
+  "elim order": 9
+ },
+ {
+  "team": "LAK",
+  "elim order": 10
+ },
+ {
+  "team": "BOS",
+  "elim order": 11
+ },
+ {
+  "team": "BUF",
+  "elim order": 11
+ },
+ {
+  "team": "DAL",
+  "elim order": 13
+ },
+ {
+  "team": "QUE",
+  "elim order": 14
+ },
+ {
+  "team": "WSH",
+  "elim order": 15
+ },
+ {
+  "team": "TOR",
+  "elim order": 16
+ },
+ {
+  "team": "STL",
+  "elim order": 16
+ },
+ {
+  "team": "CGY",
+  "elim order": 16
+ },
+ {
+  "team": "NYR",
+  "elim order": 19
+ },
+ {
+  "team": "SJS",
+  "elim order": 20
+ },
+ {
+  "team": "VAN",
+  "elim order": 20
+ },
+ {
+  "team": "PIT",
+  "elim order": 22
+ },
+ {
+  "team": "CHI",
+  "elim order": 23
+ },
+ {
+  "team": "PHI",
+  "elim order": 24
+ },
+ {
+  "team": "DET",
+  "elim order": 25
+ },
+ {
+  "team": "NJD",
+  "elim order": 26
+ }
+],
+"1994":[
+ {
+  "team": "OTT",
+  "elim order": 1
+ },
+ {
+  "team": "HRT",
+  "elim order": 2
+ },
+ {
+  "team": "WPG",
+  "elim order": 3
+ },
+ {
+  "team": "EDM",
+  "elim order": 3
+ },
+ {
+  "team": "TBL",
+  "elim order": 5
+ },
+ {
+  "team": "LAK",
+  "elim order": 6
+ },
+ {
+  "team": "ANA",
+  "elim order": 7
+ },
+ {
+  "team": "QUE",
+  "elim order": 8
+ },
+ {
+  "team": "PHI",
+  "elim order": 8
+ },
+ {
+  "team": "FLA",
+  "elim order": 10
+ },
+ {
+  "team": "NYI",
+  "elim order": 11
+ },
+ {
+  "team": "STL",
+  "elim order": 11
+ },
+ {
+  "team": "PIT",
+  "elim order": 13
+ },
+ {
+  "team": "CHI",
+  "elim order": 14
+ },
+ {
+  "team": "MTL",
+  "elim order": 15
+ },
+ {
+  "team": "BUF",
+  "elim order": 15
+ },
+ {
+  "team": "DET",
+  "elim order": 17
+ },
+ {
+  "team": "CGY",
+  "elim order": 17
+ },
+ {
+  "team": "WSH",
+  "elim order": 19
+ },
+ {
+  "team": "DAL",
+  "elim order": 20
+ },
+ {
+  "team": "BOS",
+  "elim order": 21
+ },
+ {
+  "team": "SJS",
+  "elim order": 22
+ },
+ {
+  "team": "TOR",
+  "elim order": 23
+ },
+ {
+  "team": "NJD",
+  "elim order": 24
+ },
+ {
+  "team": "VAN",
+  "elim order": 25
+ },
+ {
+  "team": "NYR",
+  "elim order": 26
+ }
+],
+"1993":[
+ {
+  "team": "OTT",
+  "elim order": 1
+ },
+ {
+  "team": "SJS",
+  "elim order": 2
+ },
+ {
+  "team": "TBL",
+  "elim order": 3
+ },
+ {
+  "team": "HRT",
+  "elim order": 4
+ },
+ {
+  "team": "EDM",
+  "elim order": 5
+ },
+ {
+  "team": "PHI",
+  "elim order": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 7
+ },
+ {
+  "team": "MIN",
+  "elim order": 8
+ },
+ {
+  "team": "BOS",
+  "elim order": 9
+ },
+ {
+  "team": "CHI",
+  "elim order": 10
+ },
+ {
+  "team": "NJD",
+  "elim order": 11
+ },
+ {
+  "team": "QUE",
+  "elim order": 12
+ },
+ {
+  "team": "WSH",
+  "elim order": 12
+ },
+ {
+  "team": "WPG",
+  "elim order": 14
+ },
+ {
+  "team": "CGY",
+  "elim order": 14
+ },
+ {
+  "team": "DET",
+  "elim order": 16
+ },
+ {
+  "team": "BUF",
+  "elim order": 17
+ },
+ {
+  "team": "VAN",
+  "elim order": 18
+ },
+ {
+  "team": "PIT",
+  "elim order": 19
+ },
+ {
+  "team": "STL",
+  "elim order": 20
+ },
+ {
+  "team": "NYI",
+  "elim order": 21
+ },
+ {
+  "team": "TOR",
+  "elim order": 22
+ },
+ {
+  "team": "LAK",
+  "elim order": 23
+ },
+ {
+  "team": "MTL",
+  "elim order": 24
+ }
+],
+"1992":[
+ {
+  "team": "SJS",
+  "elim order": 1
+ },
+ {
+  "team": "QUE",
+  "elim order": 2
+ },
+ {
+  "team": "NYI",
+  "elim order": 3
+ },
+ {
+  "team": "PHI",
+  "elim order": 3
+ },
+ {
+  "team": "TOR",
+  "elim order": 5
+ },
+ {
+  "team": "CGY",
+  "elim order": 5
+ },
+ {
+  "team": "STL",
+  "elim order": 7
+ },
+ {
+  "team": "LAK",
+  "elim order": 7
+ },
+ {
+  "team": "MIN",
+  "elim order": 9
+ },
+ {
+  "team": "WPG",
+  "elim order": 9
+ },
+ {
+  "team": "HRT",
+  "elim order": 11
+ },
+ {
+  "team": "NJD",
+  "elim order": 11
+ },
+ {
+  "team": "WSH",
+  "elim order": 11
+ },
+ {
+  "team": "BUF",
+  "elim order": 11
+ },
+ {
+  "team": "DET",
+  "elim order": 15
+ },
+ {
+  "team": "MTL",
+  "elim order": 16
+ },
+ {
+  "team": "VAN",
+  "elim order": 17
+ },
+ {
+  "team": "NYR",
+  "elim order": 18
+ },
+ {
+  "team": "EDM",
+  "elim order": 19
+ },
+ {
+  "team": "BOS",
+  "elim order": 20
+ },
+ {
+  "team": "CHI",
+  "elim order": 21
+ },
+ {
+  "team": "PIT",
+  "elim order": 22
+ }
+],
+"1991":[
+ {
+  "team": "QUE",
+  "elim order": 1
+ },
+ {
+  "team": "TOR",
+  "elim order": 2
+ },
+ {
+  "team": "NYI",
+  "elim order": 3
+ },
+ {
+  "team": "WPG",
+  "elim order": 4
+ },
+ {
+  "team": "PHI",
+  "elim order": 4
+ },
+ {
+  "team": "HRT",
+  "elim order": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 6
+ },
+ {
+  "team": "BUF",
+  "elim order": 6
+ },
+ {
+  "team": "CHI",
+  "elim order": 9
+ },
+ {
+  "team": "VAN",
+  "elim order": 9
+ },
+ {
+  "team": "NJD",
+  "elim order": 11
+ },
+ {
+  "team": "DET",
+  "elim order": 12
+ },
+ {
+  "team": "CGY",
+  "elim order": 12
+ },
+ {
+  "team": "WSH",
+  "elim order": 14
+ },
+ {
+  "team": "STL",
+  "elim order": 15
+ },
+ {
+  "team": "LAK",
+  "elim order": 15
+ },
+ {
+  "team": "MTL",
+  "elim order": 17
+ },
+ {
+  "team": "EDM",
+  "elim order": 18
+ },
+ {
+  "team": "BOS",
+  "elim order": 19
+ },
+ {
+  "team": "MIN",
+  "elim order": 20
+ },
+ {
+  "team": "PIT",
+  "elim order": 21
+ }
+],
+"1990":[
+ {
+  "team": "QUE",
+  "elim order": 1
+ },
+ {
+  "team": "VAN",
+  "elim order": 2
+ },
+ {
+  "team": "DET",
+  "elim order": 3
+ },
+ {
+  "team": "PHI",
+  "elim order": 4
+ },
+ {
+  "team": "PIT",
+  "elim order": 4
+ },
+ {
+  "team": "TOR",
+  "elim order": 6
+ },
+ {
+  "team": "NYI",
+  "elim order": 7
+ },
+ {
+  "team": "CGY",
+  "elim order": 8
+ },
+ {
+  "team": "NJD",
+  "elim order": 9
+ },
+ {
+  "team": "BUF",
+  "elim order": 9
+ },
+ {
+  "team": "MIN",
+  "elim order": 11
+ },
+ {
+  "team": "WPG",
+  "elim order": 11
+ },
+ {
+  "team": "HRT",
+  "elim order": 13
+ },
+ {
+  "team": "LAK",
+  "elim order": 14
+ },
+ {
+  "team": "MTL",
+  "elim order": 15
+ },
+ {
+  "team": "NYR",
+  "elim order": 15
+ },
+ {
+  "team": "STL",
+  "elim order": 17
+ },
+ {
+  "team": "WSH",
+  "elim order": 18
+ },
+ {
+  "team": "CHI",
+  "elim order": 19
+ },
+ {
+  "team": "BOS",
+  "elim order": 20
+ },
+ {
+  "team": "EDM",
+  "elim order": 21
+ }
+],
+"1989":[
+ {
+  "team": "NYI",
+  "elim order": 1
+ },
+ {
+  "team": "QUE",
+  "elim order": 2
+ },
+ {
+  "team": "NJD",
+  "elim order": 3
+ },
+ {
+  "team": "WPG",
+  "elim order": 4
+ },
+ {
+  "team": "TOR",
+  "elim order": 5
+ },
+ {
+  "team": "HRT",
+  "elim order": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 6
+ },
+ {
+  "team": "BUF",
+  "elim order": 8
+ },
+ {
+  "team": "MIN",
+  "elim order": 8
+ },
+ {
+  "team": "WSH",
+  "elim order": 10
+ },
+ {
+  "team": "DET",
+  "elim order": 10
+ },
+ {
+  "team": "EDM",
+  "elim order": 12
+ },
+ {
+  "team": "VAN",
+  "elim order": 12
+ },
+ {
+  "team": "LAK",
+  "elim order": 14
+ },
+ {
+  "team": "BOS",
+  "elim order": 15
+ },
+ {
+  "team": "STL",
+  "elim order": 16
+ },
+ {
+  "team": "PIT",
+  "elim order": 17
+ },
+ {
+  "team": "CHI",
+  "elim order": 18
+ },
+ {
+  "team": "PHI",
+  "elim order": 19
+ },
+ {
+  "team": "MTL",
+  "elim order": 20
+ },
+ {
+  "team": "CGY",
+  "elim order": 21
+ }
+],
+"1988":[
+ {
+  "team": "VAN",
+  "elim order": 1
+ },
+ {
+  "team": "QUE",
+  "elim order": 2
+ },
+ {
+  "team": "PIT",
+  "elim order": 3
+ },
+ {
+  "team": "NYR",
+  "elim order": 4
+ },
+ {
+  "team": "MIN",
+  "elim order": 4
+ },
+ {
+  "team": "CHI",
+  "elim order": 6
+ },
+ {
+  "team": "WPG",
+  "elim order": 6
+ },
+ {
+  "team": "LAK",
+  "elim order": 6
+ },
+ {
+  "team": "HRT",
+  "elim order": 9
+ },
+ {
+  "team": "NYI",
+  "elim order": 9
+ },
+ {
+  "team": "BUF",
+  "elim order": 9
+ },
+ {
+  "team": "TOR",
+  "elim order": 9
+ },
+ {
+  "team": "PHI",
+  "elim order": 13
+ },
+ {
+  "team": "CGY",
+  "elim order": 14
+ },
+ {
+  "team": "MTL",
+  "elim order": 15
+ },
+ {
+  "team": "STL",
+  "elim order": 16
+ },
+ {
+  "team": "WSH",
+  "elim order": 17
+ },
+ {
+  "team": "DET",
+  "elim order": 18
+ },
+ {
+  "team": "NJD",
+  "elim order": 19
+ },
+ {
+  "team": "BOS",
+  "elim order": 20
+ },
+ {
+  "team": "EDM",
+  "elim order": 21
+ }
+],
+"1987":[
+ {
+  "team": "NJD",
+  "elim order": 1
+ },
+ {
+  "team": "VAN",
+  "elim order": 2
+ },
+ {
+  "team": "PIT",
+  "elim order": 2
+ },
+ {
+  "team": "BUF",
+  "elim order": 4
+ },
+ {
+  "team": "MIN",
+  "elim order": 5
+ },
+ {
+  "team": "BOS",
+  "elim order": 6
+ },
+ {
+  "team": "CHI",
+  "elim order": 6
+ },
+ {
+  "team": "LAK",
+  "elim order": 8
+ },
+ {
+  "team": "HRT",
+  "elim order": 9
+ },
+ {
+  "team": "NYR",
+  "elim order": 9
+ },
+ {
+  "team": "STL",
+  "elim order": 9
+ },
+ {
+  "team": "CGY",
+  "elim order": 9
+ },
+ {
+  "team": "WSH",
+  "elim order": 13
+ },
+ {
+  "team": "WPG",
+  "elim order": 14
+ },
+ {
+  "team": "QUE",
+  "elim order": 15
+ },
+ {
+  "team": "NYI",
+  "elim order": 15
+ },
+ {
+  "team": "TOR",
+  "elim order": 17
+ },
+ {
+  "team": "DET",
+  "elim order": 18
+ },
+ {
+  "team": "MTL",
+  "elim order": 19
+ },
+ {
+  "team": "PHI",
+  "elim order": 20
+ },
+ {
+  "team": "EDM",
+  "elim order": 21
+ }
+],
+"1986":[
+ {
+  "team": "NJD",
+  "elim order": 1
+ },
+ {
+  "team": "DET",
+  "elim order": 2
+ },
+ {
+  "team": "LAK",
+  "elim order": 3
+ },
+ {
+  "team": "BUF",
+  "elim order": 4
+ },
+ {
+  "team": "PIT",
+  "elim order": 4
+ },
+ {
+  "team": "BOS",
+  "elim order": 6
+ },
+ {
+  "team": "QUE",
+  "elim order": 6
+ },
+ {
+  "team": "NYI",
+  "elim order": 6
+ },
+ {
+  "team": "CHI",
+  "elim order": 6
+ },
+ {
+  "team": "WPG",
+  "elim order": 6
+ },
+ {
+  "team": "VAN",
+  "elim order": 6
+ },
+ {
+  "team": "PHI",
+  "elim order": 12
+ },
+ {
+  "team": "MIN",
+  "elim order": 12
+ },
+ {
+  "team": "WSH",
+  "elim order": 14
+ },
+ {
+  "team": "HRT",
+  "elim order": 15
+ },
+ {
+  "team": "TOR",
+  "elim order": 16
+ },
+ {
+  "team": "EDM",
+  "elim order": 16
+ },
+ {
+  "team": "NYR",
+  "elim order": 18
+ },
+ {
+  "team": "STL",
+  "elim order": 19
+ },
+ {
+  "team": "CGY",
+  "elim order": 20
+ },
+ {
+  "team": "MTL",
+  "elim order": 21
+ }
+],
+"1985":[
+ {
+  "team": "VAN",
+  "elim order": 1
+ },
+ {
+  "team": "TOR",
+  "elim order": 2
+ },
+ {
+  "team": "NJD",
+  "elim order": 3
+ },
+ {
+  "team": "HRT",
+  "elim order": 4
+ },
+ {
+  "team": "PIT",
+  "elim order": 5
+ },
+ {
+  "team": "NYR",
+  "elim order": 6
+ },
+ {
+  "team": "DET",
+  "elim order": 6
+ },
+ {
+  "team": "STL",
+  "elim order": 6
+ },
+ {
+  "team": "LAK",
+  "elim order": 6
+ },
+ {
+  "team": "CGY",
+  "elim order": 10
+ },
+ {
+  "team": "BOS",
+  "elim order": 11
+ },
+ {
+  "team": "WSH",
+  "elim order": 11
+ },
+ {
+  "team": "BUF",
+  "elim order": 11
+ },
+ {
+  "team": "WPG",
+  "elim order": 14
+ },
+ {
+  "team": "NYI",
+  "elim order": 15
+ },
+ {
+  "team": "MIN",
+  "elim order": 16
+ },
+ {
+  "team": "MTL",
+  "elim order": 17
+ },
+ {
+  "team": "QUE",
+  "elim order": 18
+ },
+ {
+  "team": "CHI",
+  "elim order": 18
+ },
+ {
+  "team": "PHI",
+  "elim order": 20
+ },
+ {
+  "team": "EDM",
+  "elim order": 21
+ }
+],
+"1984":[
+ {
+  "team": "NJD",
+  "elim order": 1
+ },
+ {
+  "team": "PIT",
+  "elim order": 1
+ },
+ {
+  "team": "LAK",
+  "elim order": 3
+ },
+ {
+  "team": "HRT",
+  "elim order": 4
+ },
+ {
+  "team": "TOR",
+  "elim order": 5
+ },
+ {
+  "team": "BOS",
+  "elim order": 6
+ },
+ {
+  "team": "PHI",
+  "elim order": 6
+ },
+ {
+  "team": "BUF",
+  "elim order": 6
+ },
+ {
+  "team": "WPG",
+  "elim order": 6
+ },
+ {
+  "team": "DET",
+  "elim order": 10
+ },
+ {
+  "team": "VAN",
+  "elim order": 10
+ },
+ {
+  "team": "NYR",
+  "elim order": 12
+ },
+ {
+  "team": "CHI",
+  "elim order": 12
+ },
+ {
+  "team": "WSH",
+  "elim order": 14
+ },
+ {
+  "team": "QUE",
+  "elim order": 15
+ },
+ {
+  "team": "STL",
+  "elim order": 16
+ },
+ {
+  "team": "CGY",
+  "elim order": 16
+ },
+ {
+  "team": "MIN",
+  "elim order": 18
+ },
+ {
+  "team": "MTL",
+  "elim order": 19
+ },
+ {
+  "team": "NYI",
+  "elim order": 20
+ },
+ {
+  "team": "EDM",
+  "elim order": 21
+ }
+],
+"1983":[
+ {
+  "team": "PIT",
+  "elim order": 1
+ },
+ {
+  "team": "NJD",
+  "elim order": 1
+ },
+ {
+  "team": "HRT",
+  "elim order": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 4
+ },
+ {
+  "team": "LAK",
+  "elim order": 5
+ },
+ {
+  "team": "MTL",
+  "elim order": 6
+ },
+ {
+  "team": "PHI",
+  "elim order": 6
+ },
+ {
+  "team": "WPG",
+  "elim order": 6
+ },
+ {
+  "team": "QUE",
+  "elim order": 9
+ },
+ {
+  "team": "WSH",
+  "elim order": 9
+ },
+ {
+  "team": "TOR",
+  "elim order": 9
+ },
+ {
+  "team": "STL",
+  "elim order": 9
+ },
+ {
+  "team": "VAN",
+  "elim order": 9
+ },
+ {
+  "team": "MIN",
+  "elim order": 14
+ },
+ {
+  "team": "CGY",
+  "elim order": 14
+ },
+ {
+  "team": "NYR",
+  "elim order": 16
+ },
+ {
+  "team": "BUF",
+  "elim order": 17
+ },
+ {
+  "team": "CHI",
+  "elim order": 18
+ },
+ {
+  "team": "BOS",
+  "elim order": 19
+ },
+ {
+  "team": "EDM",
+  "elim order": 20
+ },
+ {
+  "team": "NYI",
+  "elim order": 21
+ }
+],
+"1982":[
+ {
+  "team": "HRT",
+  "elim order": 1
+ },
+ {
+  "team": "DET",
+  "elim order": 2
+ },
+ {
+  "team": "COL",
+  "elim order": 2
+ },
+ {
+  "team": "TOR",
+  "elim order": 4
+ },
+ {
+  "team": "WSH",
+  "elim order": 5
+ },
+ {
+  "team": "CGY",
+  "elim order": 6
+ },
+ {
+  "team": "PHI",
+  "elim order": 7
+ },
+ {
+  "team": "BUF",
+  "elim order": 7
+ },
+ {
+  "team": "MIN",
+  "elim order": 7
+ },
+ {
+  "team": "WPG",
+  "elim order": 7
+ },
+ {
+  "team": "MTL",
+  "elim order": 11
+ },
+ {
+  "team": "PIT",
+  "elim order": 11
+ },
+ {
+  "team": "EDM",
+  "elim order": 11
+ },
+ {
+  "team": "LAK",
+  "elim order": 14
+ },
+ {
+  "team": "NYR",
+  "elim order": 15
+ },
+ {
+  "team": "STL",
+  "elim order": 15
+ },
+ {
+  "team": "BOS",
+  "elim order": 17
+ },
+ {
+  "team": "QUE",
+  "elim order": 18
+ },
+ {
+  "team": "CHI",
+  "elim order": 19
+ },
+ {
+  "team": "VAN",
+  "elim order": 20
+ },
+ {
+  "team": "NYI",
+  "elim order": 21
+ }
+],
+"1981":[
+ {
+  "team": "WPG",
+  "elim order": 1
+ },
+ {
+  "team": "COL",
+  "elim order": 2
+ },
+ {
+  "team": "DET",
+  "elim order": 3
+ },
+ {
+  "team": "HRT",
+  "elim order": 3
+ },
+ {
+  "team": "WSH",
+  "elim order": 5
+ },
+ {
+  "team": "BOS",
+  "elim order": 6
+ },
+ {
+  "team": "MTL",
+  "elim order": 6
+ },
+ {
+  "team": "TOR",
+  "elim order": 6
+ },
+ {
+  "team": "CHI",
+  "elim order": 6
+ },
+ {
+  "team": "VAN",
+  "elim order": 6
+ },
+ {
+  "team": "LAK",
+  "elim order": 11
+ },
+ {
+  "team": "QUE",
+  "elim order": 12
+ },
+ {
+  "team": "PIT",
+  "elim order": 12
+ },
+ {
+  "team": "BUF",
+  "elim order": 14
+ },
+ {
+  "team": "STL",
+  "elim order": 15
+ },
+ {
+  "team": "EDM",
+  "elim order": 15
+ },
+ {
+  "team": "PHI",
+  "elim order": 17
+ },
+ {
+  "team": "NYR",
+  "elim order": 18
+ },
+ {
+  "team": "CGY",
+  "elim order": 19
+ },
+ {
+  "team": "MIN",
+  "elim order": 20
+ },
+ {
+  "team": "NYI",
+  "elim order": 21
+ }
+],
+"1980":[
+ {
+  "team": "WPG",
+  "elim order": 1
+ },
+ {
+  "team": "COL",
+  "elim order": 2
+ },
+ {
+  "team": "QUE",
+  "elim order": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 4
+ },
+ {
+  "team": "WSH",
+  "elim order": 5
+ },
+ {
+  "team": "HRT",
+  "elim order": 6
+ },
+ {
+  "team": "TOR",
+  "elim order": 6
+ },
+ {
+  "team": "STL",
+  "elim order": 6
+ },
+ {
+  "team": "EDM",
+  "elim order": 6
+ },
+ {
+  "team": "ATL",
+  "elim order": 10
+ },
+ {
+  "team": "LAK",
+  "elim order": 10
+ },
+ {
+  "team": "VAN",
+  "elim order": 10
+ },
+ {
+  "team": "PIT",
+  "elim order": 13
+ },
+ {
+  "team": "CHI",
+  "elim order": 14
+ },
+ {
+  "team": "BOS",
+  "elim order": 15
+ },
+ {
+  "team": "NYR",
+  "elim order": 15
+ },
+ {
+  "team": "MTL",
+  "elim order": 17
+ },
+ {
+  "team": "MIN",
+  "elim order": 18
+ },
+ {
+  "team": "BUF",
+  "elim order": 19
+ },
+ {
+  "team": "PHI",
+  "elim order": 20
+ },
+ {
+  "team": "NYI",
+  "elim order": 21
+ }
+],
+"1979":[
+ {
+  "team": "WSH",
+  "elim order": 1
+ },
+ {
+  "team": "DET",
+  "elim order": 1
+ },
+ {
+  "team": "COL",
+  "elim order": 3
+ },
+ {
+  "team": "STL",
+  "elim order": 4
+ },
+ {
+  "team": "MIN",
+  "elim order": 5
+ },
+ {
+  "team": "ATL",
+  "elim order": 6
+ },
+ {
+  "team": "LAK",
+  "elim order": 6
+ },
+ {
+  "team": "BUF",
+  "elim order": 8
+ },
+ {
+  "team": "VAN",
+  "elim order": 8
+ },
+ {
+  "team": "TOR",
+  "elim order": 10
+ },
+ {
+  "team": "PIT",
+  "elim order": 10
+ },
+ {
+  "team": "CHI",
+  "elim order": 10
+ },
+ {
+  "team": "PHI",
+  "elim order": 13
+ },
+ {
+  "team": "NYI",
+  "elim order": 14
+ },
+ {
+  "team": "BOS",
+  "elim order": 15
+ },
+ {
+  "team": "NYR",
+  "elim order": 16
+ },
+ {
+  "team": "MTL",
+  "elim order": 17
+ }
+],
+"1978":[
+ {
+  "team": "WSH",
+  "elim order": 1
+ },
+ {
+  "team": "CLE",
+  "elim order": 2
+ },
+ {
+  "team": "MIN",
+  "elim order": 3
+ },
+ {
+  "team": "STL",
+  "elim order": 4
+ },
+ {
+  "team": "PIT",
+  "elim order": 5
+ },
+ {
+  "team": "VAN",
+  "elim order": 6
+ },
+ {
+  "team": "ATL",
+  "elim order": 7
+ },
+ {
+  "team": "COL",
+  "elim order": 7
+ },
+ {
+  "team": "LAK",
+  "elim order": 7
+ },
+ {
+  "team": "NYR",
+  "elim order": 10
+ },
+ {
+  "team": "CHI",
+  "elim order": 11
+ },
+ {
+  "team": "BUF",
+  "elim order": 12
+ },
+ {
+  "team": "DET",
+  "elim order": 12
+ },
+ {
+  "team": "NYI",
+  "elim order": 14
+ },
+ {
+  "team": "TOR",
+  "elim order": 15
+ },
+ {
+  "team": "PHI",
+  "elim order": 16
+ },
+ {
+  "team": "BOS",
+  "elim order": 17
+ },
+ {
+  "team": "MTL",
+  "elim order": 18
+ }
+],
+"1977":[
+ {
+  "team": "DET",
+  "elim order": 1
+ },
+ {
+  "team": "WSH",
+  "elim order": 2
+ },
+ {
+  "team": "CLE",
+  "elim order": 3
+ },
+ {
+  "team": "COL",
+  "elim order": 4
+ },
+ {
+  "team": "NYR",
+  "elim order": 5
+ },
+ {
+  "team": "VAN",
+  "elim order": 6
+ },
+ {
+  "team": "CHI",
+  "elim order": 7
+ },
+ {
+  "team": "MIN",
+  "elim order": 7
+ },
+ {
+  "team": "ATL",
+  "elim order": 9
+ },
+ {
+  "team": "PIT",
+  "elim order": 9
+ },
+ {
+  "team": "BUF",
+  "elim order": 11
+ },
+ {
+  "team": "STL",
+  "elim order": 11
+ },
+ {
+  "team": "TOR",
+  "elim order": 13
+ },
+ {
+  "team": "LAK",
+  "elim order": 13
+ },
+ {
+  "team": "PHI",
+  "elim order": 15
+ },
+ {
+  "team": "NYI",
+  "elim order": 16
+ },
+ {
+  "team": "BOS",
+  "elim order": 17
+ },
+ {
+  "team": "MTL",
+  "elim order": 18
+ }
+],
+"1976":[
+ {
+  "team": "WSH",
+  "elim order": 1
+ },
+ {
+  "team": "KC",
+  "elim order": 2
+ },
+ {
+  "team": "MIN",
+  "elim order": 3
+ },
+ {
+  "team": "CAL",
+  "elim order": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 5
+ },
+ {
+  "team": "NYR",
+  "elim order": 6
+ },
+ {
+  "team": "ATL",
+  "elim order": 7
+ },
+ {
+  "team": "VAN",
+  "elim order": 7
+ },
+ {
+  "team": "PIT",
+  "elim order": 9
+ },
+ {
+  "team": "STL",
+  "elim order": 9
+ },
+ {
+  "team": "CHI",
+  "elim order": 11
+ },
+ {
+  "team": "BUF",
+  "elim order": 12
+ },
+ {
+  "team": "TOR",
+  "elim order": 13
+ },
+ {
+  "team": "LAK",
+  "elim order": 13
+ },
+ {
+  "team": "BOS",
+  "elim order": 15
+ },
+ {
+  "team": "NYI",
+  "elim order": 15
+ },
+ {
+  "team": "PHI",
+  "elim order": 17
+ },
+ {
+  "team": "MTL",
+  "elim order": 18
+ }
+],
+"1975":[
+ {
+  "team": "WSH",
+  "elim order": 1
+ },
+ {
+  "team": "KC",
+  "elim order": 2
+ },
+ {
+  "team": "DET",
+  "elim order": 3
+ },
+ {
+  "team": "CAL",
+  "elim order": 3
+ },
+ {
+  "team": "MIN",
+  "elim order": 5
+ },
+ {
+  "team": "ATL",
+  "elim order": 6
+ },
+ {
+  "team": "STL",
+  "elim order": 7
+ },
+ {
+  "team": "NYR",
+  "elim order": 8
+ },
+ {
+  "team": "BOS",
+  "elim order": 8
+ },
+ {
+  "team": "LAK",
+  "elim order": 8
+ },
+ {
+  "team": "TOR",
+  "elim order": 11
+ },
+ {
+  "team": "CHI",
+  "elim order": 12
+ },
+ {
+  "team": "VAN",
+  "elim order": 12
+ },
+ {
+  "team": "PIT",
+  "elim order": 14
+ },
+ {
+  "team": "MTL",
+  "elim order": 15
+ },
+ {
+  "team": "NYI",
+  "elim order": 16
+ },
+ {
+  "team": "BUF",
+  "elim order": 17
+ },
+ {
+  "team": "PHI",
+  "elim order": 18
+ }
+],
+"1974":[
+ {
+  "team": "VAN",
+  "elim order": 1
+ },
+ {
+  "team": "CAL",
+  "elim order": 2
+ },
+ {
+  "team": "NYI",
+  "elim order": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 4
+ },
+ {
+  "team": "PIT",
+  "elim order": 5
+ },
+ {
+  "team": "STL",
+  "elim order": 5
+ },
+ {
+  "team": "BUF",
+  "elim order": 5
+ },
+ {
+  "team": "MIN",
+  "elim order": 8
+ },
+ {
+  "team": "TOR",
+  "elim order": 9
+ },
+ {
+  "team": "ATL",
+  "elim order": 9
+ },
+ {
+  "team": "LAK",
+  "elim order": 11
+ },
+ {
+  "team": "MTL",
+  "elim order": 12
+ },
+ {
+  "team": "CHI",
+  "elim order": 13
+ },
+ {
+  "team": "NYR",
+  "elim order": 14
+ },
+ {
+  "team": "BOS",
+  "elim order": 15
+ },
+ {
+  "team": "PHI",
+  "elim order": 16
+ }
+],
+"1973":[
+ {
+  "team": "NYI",
+  "elim order": 1
+ },
+ {
+  "team": "VAN",
+  "elim order": 2
+ },
+ {
+  "team": "TOR",
+  "elim order": 3
+ },
+ {
+  "team": "CAL",
+  "elim order": 4
+ },
+ {
+  "team": "ATL",
+  "elim order": 5
+ },
+ {
+  "team": "LAK",
+  "elim order": 6
+ },
+ {
+  "team": "PIT",
+  "elim order": 7
+ },
+ {
+  "team": "DET",
+  "elim order": 8
+ },
+ {
+  "team": "BOS",
+  "elim order": 9
+ },
+ {
+  "team": "STL",
+  "elim order": 9
+ },
+ {
+  "team": "BUF",
+  "elim order": 11
+ },
+ {
+  "team": "MIN",
+  "elim order": 11
+ },
+ {
+  "team": "PHI",
+  "elim order": 13
+ },
+ {
+  "team": "NYR",
+  "elim order": 13
+ },
+ {
+  "team": "CHI",
+  "elim order": 15
+ },
+ {
+  "team": "MTL",
+  "elim order": 16
+ }
+],
+"1972":[
+ {
+  "team": "VAN",
+  "elim order": 1
+ },
+ {
+  "team": "BUF",
+  "elim order": 2
+ },
+ {
+  "team": "LAK",
+  "elim order": 3
+ },
+ {
+  "team": "CAL",
+  "elim order": 4
+ },
+ {
+  "team": "DET",
+  "elim order": 5
+ },
+ {
+  "team": "PHI",
+  "elim order": 6
+ },
+ {
+  "team": "PIT",
+  "elim order": 7
+ },
+ {
+  "team": "TOR",
+  "elim order": 8
+ },
+ {
+  "team": "MTL",
+  "elim order": 9
+ },
+ {
+  "team": "MIN",
+  "elim order": 10
+ },
+ {
+  "team": "CHI",
+  "elim order": 11
+ },
+ {
+  "team": "STL",
+  "elim order": 12
+ },
+ {
+  "team": "NYR",
+  "elim order": 13
+ },
+ {
+  "team": "BOS",
+  "elim order": 14
+ }
+],
+"1971":[
+ {
+  "team": "BUF",
+  "elim order": 1
+ },
+ {
+  "team": "VAN",
+  "elim order": 2
+ },
+ {
+  "team": "CAL",
+  "elim order": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 4
+ },
+ {
+  "team": "LAK",
+  "elim order": 5
+ },
+ {
+  "team": "PIT",
+  "elim order": 6
+ },
+ {
+  "team": "PHI",
+  "elim order": 7
+ },
+ {
+  "team": "TOR",
+  "elim order": 8
+ },
+ {
+  "team": "STL",
+  "elim order": 8
+ },
+ {
+  "team": "BOS",
+  "elim order": 10
+ },
+ {
+  "team": "MIN",
+  "elim order": 11
+ },
+ {
+  "team": "NYR",
+  "elim order": 12
+ },
+ {
+  "team": "CHI",
+  "elim order": 13
+ },
+ {
+  "team": "MTL",
+  "elim order": 14
+ }
+],
+"1970":[
+ {
+  "team": "TOR",
+  "elim order": 1
+ },
+ {
+  "team": "LAK",
+  "elim order": 1
+ },
+ {
+  "team": "PHI",
+  "elim order": 3
+ },
+ {
+  "team": "MTL",
+  "elim order": 4
+ },
+ {
+  "team": "DET",
+  "elim order": 5
+ },
+ {
+  "team": "OAK",
+  "elim order": 5
+ },
+ {
+  "team": "NYR",
+  "elim order": 7
+ },
+ {
+  "team": "MIN",
+  "elim order": 7
+ },
+ {
+  "team": "CHI",
+  "elim order": 9
+ },
+ {
+  "team": "PIT",
+  "elim order": 10
+ },
+ {
+  "team": "STL",
+  "elim order": 11
+ },
+ {
+  "team": "BOS",
+  "elim order": 12
+ }
+],
+"1969":[
+ {
+  "team": "PIT",
+  "elim order": 1
+ },
+ {
+  "team": "CHI",
+  "elim order": 2
+ },
+ {
+  "team": "MIN",
+  "elim order": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 4
+ },
+ {
+  "team": "NYR",
+  "elim order": 5
+ },
+ {
+  "team": "PHI",
+  "elim order": 5
+ },
+ {
+  "team": "TOR",
+  "elim order": 5
+ },
+ {
+  "team": "OAK",
+  "elim order": 8
+ },
+ {
+  "team": "LAK",
+  "elim order": 9
+ },
+ {
+  "team": "BOS",
+  "elim order": 10
+ },
+ {
+  "team": "STL",
+  "elim order": 11
+ },
+ {
+  "team": "MTL",
+  "elim order": 12
+ }
+],
+"1968":[
+ {
+  "team": "OAK",
+  "elim order": 1
+ },
+ {
+  "team": "DET",
+  "elim order": 2
+ },
+ {
+  "team": "TOR",
+  "elim order": 3
+ },
+ {
+  "team": "PIT",
+  "elim order": 4
+ },
+ {
+  "team": "BOS",
+  "elim order": 5
+ },
+ {
+  "team": "NYR",
+  "elim order": 6
+ },
+ {
+  "team": "PHI",
+  "elim order": 7
+ },
+ {
+  "team": "LAK",
+  "elim order": 7
+ },
+ {
+  "team": "CHI",
+  "elim order": 9
+ },
+ {
+  "team": "MIN",
+  "elim order": 10
+ },
+ {
+  "team": "STL",
+  "elim order": 11
+ },
+ {
+  "team": "MTL",
+  "elim order": 12
+ }
+],
+"1967":[
+ {
+  "team": "BOS",
+  "elim order": 1
+ },
+ {
+  "team": "DET",
+  "elim order": 2
+ },
+ {
+  "team": "NYR",
+  "elim order": 3
+ },
+ {
+  "team": "CHI",
+  "elim order": 4
+ },
+ {
+  "team": "MTL",
+  "elim order": 5
+ },
+ {
+  "team": "TOR",
+  "elim order": 6
+ }
+]
+}
