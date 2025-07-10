@@ -10,23 +10,20 @@
   <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
   <style>
-    #map { width: 100%; height: 600px; position: relative; overflow: hidden; }
-    .map-container { width: 100%; height: 100%; transform-origin: center; position: relative; z-index: 5; background-image: url('https://via.placeholder.com/1200x900.png?text=North+America+Map'); background-size: cover; background-position: center; }
     .team-logo { position: absolute; width: 60px; height: 60px; transition: opacity 0.5s; z-index: 10; }
     .team-logo img { width: 100%; height: 100%; object-fit: contain; }
-    /* Tooltip styling removed */
     .error-message { color: red; text-align: center; margin-top: 1rem; }
     .loading-message { color: blue; text-align: center; margin-top: 1rem; }
     select { min-width: 150px; z-index: 1000; visibility: visible; }
     .controls { min-height: 40px; z-index: 1000; display: flex; gap: 8px; flex-wrap: wrap; }
-    svg { display: none; }
+    .team-container { position: relative; width: 1200px; height: 900px; margin: 0 auto; background-color: #f0f0f0; } /* Placeholder background */
   </style>
 </head>
 <body class="bg-gray-100 font-sans">
   <div id="root"></div>
 
   <script type="text/babel">
-    const { useState, useEffect, useRef, Component } = React;
+    const { useState, useEffect, Component } = React;
 
     class ErrorBoundary extends Component {
       state = { error: null };
@@ -49,8 +46,6 @@
       const [error, setError] = useState(null);
       const [isLoading, setIsLoading] = useState(true);
       const [currentElimOrder, setCurrentElimOrder] = useState(0);
-      const [zoomLevel, setZoomLevel] = useState(1);
-      const mapRef = useRef(null);
 
       useEffect(() => {
         if (Object.keys(eliminationData).length > 0 && !selectedSeason) {
@@ -63,8 +58,8 @@
         console.log('Starting fetch for data...');
         setIsLoading(true);
         Promise.all([
-          fetch('./NHLelimseq.json').catch(() => { throw new Error('Failed to fetch NHLelimseq.json'); }),
-          fetch('./team_coordinates.json').catch(() => { throw new Error('Failed to fetch team_coordinates.json'); })
+          fetch('/data/NHLelimseq.json').catch(() => { throw new Error('Failed to fetch NHLelimseq.json'); }),
+          fetch('/data/team_coordinates.json').catch(() => { throw new Error('Failed to fetch team_coordinates.json'); })
         ])
           .then(([elimRes, coordRes]) => {
             console.log('Fetch response statuses:', elimRes.status, coordRes.status);
@@ -74,7 +69,7 @@
           })
           .then(([elimData, coordData]) => {
             console.log('Data fetched successfully:', Object.keys(elimData).length, 'seasons,', Object.keys(coordData).length, 'teams');
-            console.log('Sample season data (2022):', elimData['2022']);
+            console.log('Sample season data (1967):', elimData['1967']);
             console.log('Seasons available:', Object.keys(elimData).sort((a, b) => b - a));
             console.log('Teams in coordinates:', Object.keys(coordData));
             setEliminationData(elimData);
@@ -89,49 +84,12 @@
           });
       }, []);
 
-      useEffect(() => {
-        const map = mapRef.current;
-        if (!map) return;
-
-        const handleWheel = (e) => {
-          e.preventDefault();
-          const delta = e.deltaY > 0 ? -0.1 : 0.1;
-          setZoomLevel(prev => Math.max(0.5, Math.min(3, prev + delta)));
-        };
-
-        const handleTouchMove = (e) => {
-          if (e.touches.length === 2) {
-            e.preventDefault();
-            const touch1 = e.touches[0];
-            const touch2 = e.touches[1];
-            const distance = Math.hypot(touch1.pageX - touch2.pageX, touch1.pageY - touch2.pageY);
-            if (!map.lastTouchDistance) map.lastTouchDistance = distance;
-            const scaleChange = distance / map.lastTouchDistance;
-            setZoomLevel(prev => Math.max(0.5, Math.min(3, prev * scaleChange)));
-            map.lastTouchDistance = distance;
-          }
-        };
-
-        const handleTouchEnd = () => {
-          map.lastTouchDistance = null;
-        };
-
-        map.addEventListener('wheel', handleWheel, { passive: false });
-        map.addEventListener('touchmove', handleTouchMove, { passive: false });
-        map.addEventListener('touchend', handleTouchEnd);
-        return () => {
-          map.removeEventListener('wheel', handleWheel);
-          map.removeEventListener('touchmove', handleTouchMove);
-          map.removeEventListener('touchend', handleTouchEnd);
-        };
-      }, []);
-
       const project = (lat, lon) => {
         const mapWidth = 1200;
         const mapHeight = 900;
         // North America: lat 25–55°N, lon –130 to –60°W
-        const x = ((lon + 130) * (mapWidth / 70)) * zoomLevel; // –130 to –60°W
-        const y = ((55 - lat) * (mapHeight / 30)) * zoomLevel; // 25–55°N
+        const x = ((lon + 130) * (mapWidth / 70)); // –130 to –60°W
+        const y = ((55 - lat) * (mapHeight / 30)); // 25–55°N
         console.log(`Projecting team at lat: ${lat}, lon: ${lon} to x: ${x}, y: ${y}`);
         return { x, y };
       };
@@ -231,7 +189,7 @@
 
               const { x, y } = project(coords.lat, coords.lon);
               const teamAbbr = team.team;
-              console.log(`Attempting to load logo: ./logos/NHL${selectedSeason}/${teamAbbr}.png at x: ${x}, y: ${y}`);
+              console.log(`Attempting to load logo: /logos/NHL${selectedSeason}/${teamAbbr}.png at x: ${x}, y: ${y}`);
               return (
                 <div
                   key={teamAbbr}
@@ -245,13 +203,13 @@
                   }}
                 >
                   <img
-                    src={`./logos/NHL${selectedSeason}/${teamAbbr}.png`}
+                    src={`/logos/NHL${selectedSeason}/${teamAbbr}.png`}
                     alt={teamAbbr}
                     onError={(e) => {
-                      console.error(`Failed to load logo for ${teamAbbr} in season ${selectedSeason} at ./logos/NHL${selectedSeason}/${teamAbbr}.png`);
+                      console.error(`Failed to load logo for ${teamAbbr} in season ${selectedSeason} at /logos/NHL${selectedSeason}/${teamAbbr}.png`);
                       e.target.style.display = 'none';
                     }}
-                    onLoad={() => console.log(`Successfully loaded logo for ${teamAbbr} in season ${selectedSeason} at ./logos/NHL${selectedSeason}/${teamAbbr}.png`)}
+                    onLoad={() => console.log(`Successfully loaded logo for ${teamAbbr} in season ${selectedSeason} at /logos/NHL${selectedSeason}/${teamAbbr}.png`)}
                   />
                 </div>
               );
@@ -260,7 +218,7 @@
         );
       };
 
-      const fallbackSeasons = ['2025', '2024', '2023', '2022'];
+      const seasonsRange = Array.from({ length: 2025 - 1967 + 1 }, (_, i) => (1967 + i).toString());
 
       console.log('Rendering component, eliminationData keys:', Object.keys(eliminationData));
 
@@ -281,7 +239,7 @@
                 <option value="">Select a Season</option>
                 {(Object.keys(eliminationData).length > 0
                   ? Object.keys(eliminationData)
-                  : fallbackSeasons
+                  : seasonsRange
                 )
                   .sort((a, b) => b - a)
                   .map(season => (
@@ -319,10 +277,8 @@
                 Reset
               </button>
             </div>
-            <div id="map" className="relative rounded" ref={mapRef}>
-              <div className="map-container" style={{ transform: `scale(${zoomLevel})` }}>
-                {renderTeams()}
-              </div>
+            <div className="team-container">
+              {renderTeams()}
             </div>
           </div>
         </ErrorBoundary>
