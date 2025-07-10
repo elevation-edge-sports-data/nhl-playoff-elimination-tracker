@@ -58,8 +58,8 @@
         console.log('Starting fetch for data...');
         setIsLoading(true);
         Promise.all([
-          fetch('/data/NHLelimseq.json').catch(() => { throw new Error('Failed to fetch NHLelimseq.json'); }),
-          fetch('/data/team_coordinates.json').catch(() => { throw new Error('Failed to fetch team_coordinates.json'); })
+          fetch('data/NHLelimseq.json').catch(() => { throw new Error('Failed to fetch NHLelimseq.json'); }),
+          fetch('data/team_coordinates.json').catch(() => { throw new Error('Failed to fetch team_coordinates.json'); })
         ])
           .then(([elimRes, coordRes]) => {
             console.log('Fetch response statuses:', elimRes.status, coordRes.status);
@@ -203,7 +203,7 @@
                   }}
                 >
                   <img
-                    src={`/logos/NHL${selectedSeason}/${teamAbbr}.png`}
+                    src={`logos/NHL${selectedSeason}/${teamAbbr}.png`}
                     alt={teamAbbr}
                     onError={(e) => {
                       console.error(`Failed to load logo for ${teamAbbr} in season ${selectedSeason} at /logos/NHL${selectedSeason}/${teamAbbr}.png`);
