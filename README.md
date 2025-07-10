@@ -28,15 +28,19 @@ Designed for fans, analysts, and historians, this project offers a unique way to
 
 ## Project Structure
 
-├── index.html # Main web app (self-contained)
+```plaintext
+.
+├── index.html                # Main web app (self-contained)
 ├── data/
-│ ├── team_coordinates.json # Latitude/longitude for each franchise
-│ └── NHLelimseq.json # Elimination sequence data for all seasons
+│   ├── team_coordinates.json  # Latitude/longitude for each franchise
+│   └── NHLelimseq.json        # Elimination sequence data for all seasons
 ├── logosNHL/
-│ ├── NHL1967/
-│ ├── NHL1968/
-│ ├── ...
-│ └── NHL2025/ # One folder per season with era-accurate logos
+│   ├── NHL1967/
+│   ├── NHL1968/
+│   ├── ...
+│   └── NHL2025/              # One folder per season with era-accurate logos
+└── README.md
+
 
 
 
