@@ -14,7 +14,7 @@
   "DET": {"lat": 42.3314, "lon": -83.0458, "city": "Detroit"},
   "EDM": {"lat": 53.5461, "lon": -113.4909, "city": "Edmonton"},
   "FLA": {"lat": 26.1224, "lon": -80.1373, "city": "Sunrise"},
-  "HRT": {"lat": 41.7620, "lon": -72.6740, "city": "Hartford"},
+  "HFD": {"lat": 41.7620, "lon": -72.6740, "city": "Hartford"},
   "KC": {"lat": 39.0997, "lon": -94.5786, "city": "Kansas City"},
   "LAK": {"lat": 34.0522, "lon": -118.2437, "city": "Los Angeles"},
   "MIN": {"lat": 44.9778, "lon": -93.2650, "city": "Minneapolis"},
