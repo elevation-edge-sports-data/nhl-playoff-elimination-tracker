@@ -5170,573 +5170,1479 @@
 "1976":[
  {
   "team": "WSH",
-  "elim order": 1
+  "elim order": 1,
+  "elim rank": 18
  },
  {
   "team": "KC",
-  "elim order": 2
+  "elim order": 2,
+  "elim rank": 17
  },
  {
   "team": "MIN",
-  "elim order": 3
+  "elim order": 3,
+  "elim rank": 15
  },
  {
   "team": "CAL",
-  "elim order": 3
+  "elim order": 3,
+  "elim rank": 15
  },
  {
   "team": "DET",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 14
  },
  {
   "team": "NYR",
-  "elim order": 6
+  "elim order": 6,
+  "elim rank": 13
  },
  {
   "team": "ATL",
-  "elim order": 7
+  "elim order": 7,
+  "elim rank": 11
  },
  {
   "team": "VAN",
-  "elim order": 7
+  "elim order": 7,
+  "elim rank": 11
  },
  {
   "team": "PIT",
-  "elim order": 9
+  "elim order": 9,
+  "elim rank": 9
  },
  {
   "team": "STL",
-  "elim order": 9
+  "elim order": 9,
+  "elim rank": 9
  },
  {
   "team": "CHI",
-  "elim order": 11
+  "elim order": 11,
+  "elim rank": 8
  },
  {
   "team": "BUF",
-  "elim order": 12
+  "elim order": 12,
+  "elim rank": 7
  },
  {
   "team": "TOR",
-  "elim order": 13
+  "elim order": 13,
+  "elim rank": 5
  },
  {
   "team": "LAK",
-  "elim order": 13
+  "elim order": 13,
+  "elim rank": 5
  },
  {
   "team": "BOS",
-  "elim order": 15
+  "elim order": 15,
+  "elim rank": 3
  },
  {
   "team": "NYI",
-  "elim order": 15
+  "elim order": 15,
+  "elim rank": 3
  },
  {
   "team": "PHI",
-  "elim order": 17
+  "elim order": 17,
+  "elim rank": 2
  },
  {
   "team": "MTL",
-  "elim order": 18
+  "elim order": 18,
+  "elim rank": 1
  }
 ],
 "1975":[
  {
   "team": "WSH",
-  "elim order": 1
+  "elim order": 1,
+  "elim rank": 18
  },
  {
   "team": "KC",
-  "elim order": 2
+  "elim order": 2,
+  "elim rank": 17
  },
  {
   "team": "DET",
-  "elim order": 3
+  "elim order": 3,
+  "elim rank": 15
  },
  {
   "team": "CAL",
-  "elim order": 3
+  "elim order": 3,
+  "elim rank": 15
  },
  {
   "team": "MIN",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 14
  },
  {
   "team": "ATL",
-  "elim order": 6
+  "elim order": 6,
+  "elim rank": 13
  },
  {
   "team": "STL",
-  "elim order": 7
+  "elim order": 7,
+  "elim rank": 12
  },
  {
   "team": "NYR",
-  "elim order": 8
+  "elim order": 8,
+  "elim rank": 9
  },
  {
   "team": "BOS",
-  "elim order": 8
+  "elim order": 8,
+  "elim rank": 9
  },
  {
   "team": "LAK",
-  "elim order": 8
+  "elim order": 8,
+  "elim rank": 9
  },
  {
   "team": "TOR",
-  "elim order": 11
+  "elim order": 11,
+  "elim rank": 8
  },
  {
   "team": "CHI",
-  "elim order": 12
+  "elim order": 12,
+  "elim rank": 6
  },
  {
   "team": "VAN",
-  "elim order": 12
+  "elim order": 12,
+  "elim rank": 6
  },
  {
   "team": "PIT",
-  "elim order": 14
+  "elim order": 14,
+  "elim rank": 5
  },
  {
   "team": "MTL",
-  "elim order": 15
+  "elim order": 15,
+  "elim rank": 4
  },
  {
   "team": "NYI",
-  "elim order": 16
+  "elim order": 16,
+  "elim rank": 3
  },
  {
   "team": "BUF",
-  "elim order": 17
+  "elim order": 17,
+  "elim rank": 2
  },
  {
   "team": "PHI",
-  "elim order": 18
+  "elim order": 18,
+  "elim rank": 1
  }
 ],
 "1974":[
  {
   "team": "VAN",
-  "elim order": 1
+  "elim order": 1,
+  "elim rank": 16
  },
  {
   "team": "CAL",
-  "elim order": 2
+  "elim order": 2,
+  "elim rank": 15
  },
  {
   "team": "NYI",
-  "elim order": 3
+  "elim order": 3,
+  "elim rank": 14
  },
  {
   "team": "DET",
-  "elim order": 4
+  "elim order": 4,
+  "elim rank": 13
  },
  {
   "team": "PIT",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 10
  },
  {
   "team": "STL",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 10
  },
  {
   "team": "BUF",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 10
  },
  {
   "team": "MIN",
-  "elim order": 8
+  "elim order": 8,
+  "elim rank": 9
  },
  {
   "team": "TOR",
-  "elim order": 9
+  "elim order": 9,
+  "elim rank": 7
  },
  {
   "team": "ATL",
-  "elim order": 9
+  "elim order": 9,
+  "elim rank": 7
  },
  {
   "team": "LAK",
-  "elim order": 11
+  "elim order": 11,
+  "elim rank": 6
  },
  {
   "team": "MTL",
-  "elim order": 12
+  "elim order": 12,
+  "elim rank": 5
  },
  {
   "team": "CHI",
-  "elim order": 13
+  "elim order": 13,
+  "elim rank": 4
  },
  {
   "team": "NYR",
-  "elim order": 14
+  "elim order": 14,
+  "elim rank": 3
  },
  {
   "team": "BOS",
-  "elim order": 15
+  "elim order": 15,
+  "elim rank": 2
  },
  {
   "team": "PHI",
-  "elim order": 16
+  "elim order": 16,
+  "elim rank": 1
  }
 ],
 "1973":[
  {
   "team": "NYI",
-  "elim order": 1
+  "elim order": 1,
+  "elim rank": 16
  },
  {
   "team": "VAN",
-  "elim order": 2
+  "elim order": 2,
+  "elim rank": 15
  },
  {
   "team": "TOR",
-  "elim order": 3
+  "elim order": 3,
+  "elim rank": 14
  },
  {
   "team": "CAL",
-  "elim order": 4
+  "elim order": 4,
+  "elim rank": 13
  },
  {
   "team": "ATL",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 12
  },
  {
   "team": "LAK",
-  "elim order": 6
+  "elim order": 6,
+  "elim rank": 11
  },
  {
   "team": "PIT",
-  "elim order": 7
+  "elim order": 7,
+  "elim rank": 10
  },
  {
   "team": "DET",
-  "elim order": 8
+  "elim order": 8,
+  "elim rank": 9
  },
  {
   "team": "BOS",
-  "elim order": 9
+  "elim order": 9,
+  "elim rank": 7
  },
  {
   "team": "STL",
-  "elim order": 9
+  "elim order": 9,
+  "elim rank": 7
  },
  {
   "team": "BUF",
-  "elim order": 11
+  "elim order": 11,
+  "elim rank": 5
  },
  {
   "team": "MIN",
-  "elim order": 11
+  "elim order": 11,
+  "elim rank": 5
  },
  {
   "team": "PHI",
-  "elim order": 13
+  "elim order": 13,
+  "elim rank": 3
  },
  {
   "team": "NYR",
-  "elim order": 13
+  "elim order": 13,
+  "elim rank": 3
  },
  {
   "team": "CHI",
-  "elim order": 15
+  "elim order": 15,
+  "elim rank": 2
  },
  {
   "team": "MTL",
-  "elim order": 16
+  "elim order": 16,
+  "elim rank": 1
  }
 ],
 "1972":[
  {
   "team": "VAN",
-  "elim order": 1
+  "elim order": 1,
+  "elim rank": 14
  },
  {
   "team": "BUF",
-  "elim order": 2
+  "elim order": 2,
+  "elim rank": 13
  },
  {
   "team": "LAK",
-  "elim order": 3
+  "elim order": 3,
+  "elim rank": 12
  },
  {
   "team": "CAL",
-  "elim order": 4
+  "elim order": 4,
+  "elim rank": 11
  },
  {
   "team": "DET",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 10
  },
  {
   "team": "PHI",
-  "elim order": 6
+  "elim order": 6,
+  "elim rank": 9
  },
  {
   "team": "PIT",
-  "elim order": 7
+  "elim order": 7,
+  "elim rank": 8
  },
  {
   "team": "TOR",
-  "elim order": 8
+  "elim order": 8,
+  "elim rank": 7
  },
  {
   "team": "MTL",
-  "elim order": 9
+  "elim order": 9,
+  "elim rank": 6
  },
  {
   "team": "MIN",
-  "elim order": 10
+  "elim order": 10,
+  "elim rank": 5
  },
  {
   "team": "CHI",
-  "elim order": 11
+  "elim order": 11,
+  "elim rank": 4
  },
  {
   "team": "STL",
-  "elim order": 12
+  "elim order": 12,
+  "elim rank": 3
  },
  {
   "team": "NYR",
-  "elim order": 13
+  "elim order": 13,
+  "elim rank": 2
  },
  {
   "team": "BOS",
-  "elim order": 14
+  "elim order": 14,
+  "elim rank": 1
  }
 ],
 "1971":[
  {
   "team": "BUF",
-  "elim order": 1
+  "elim order": 1,
+  "elim rank": 14
  },
  {
   "team": "VAN",
-  "elim order": 2
+  "elim order": 2,
+  "elim rank": 13
  },
  {
   "team": "CAL",
-  "elim order": 3
+  "elim order": 3,
+  "elim rank": 12
  },
  {
   "team": "DET",
-  "elim order": 4
+  "elim order": 4,
+  "elim rank": 11
  },
  {
   "team": "LAK",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 10
  },
  {
   "team": "PIT",
-  "elim order": 6
+  "elim order": 6,
+  "elim rank": 9
  },
  {
   "team": "PHI",
-  "elim order": 7
+  "elim order": 7,
+  "elim rank": 8
  },
  {
   "team": "TOR",
-  "elim order": 8
+  "elim order": 8,
+  "elim rank": 6
  },
  {
   "team": "STL",
-  "elim order": 8
+  "elim order": 8,
+  "elim rank": 6
  },
  {
   "team": "BOS",
-  "elim order": 10
+  "elim order": 10,
+  "elim rank": 5
  },
  {
   "team": "MIN",
-  "elim order": 11
+  "elim order": 11,
+  "elim rank": 4
  },
  {
   "team": "NYR",
-  "elim order": 12
+  "elim order": 12,
+  "elim rank": 3
  },
  {
   "team": "CHI",
-  "elim order": 13
+  "elim order": 13,
+  "elim rank": 2
  },
  {
   "team": "MTL",
-  "elim order": 14
+  "elim order": 14,
+  "elim rank": 1
  }
 ],
 "1970":[
  {
   "team": "TOR",
-  "elim order": 1
+  "elim order": 1,
+  "elim rank": 11
  },
  {
   "team": "LAK",
-  "elim order": 1
+  "elim order": 1,
+  "elim rank": 11
  },
  {
   "team": "PHI",
-  "elim order": 3
+  "elim order": 3,
+  "elim rank": 10
  },
  {
   "team": "MTL",
-  "elim order": 4
+  "elim order": 4,
+  "elim rank": 9
  },
  {
   "team": "DET",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 7
  },
  {
   "team": "OAK",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 7
  },
  {
   "team": "NYR",
-  "elim order": 7
+  "elim order": 7,
+  "elim rank": 5
  },
  {
   "team": "MIN",
-  "elim order": 7
+  "elim order": 7,
+  "elim rank": 5
  },
  {
   "team": "CHI",
-  "elim order": 9
+  "elim order": 9,
+  "elim rank": 4
  },
  {
   "team": "PIT",
-  "elim order": 10
+  "elim order": 10,
+  "elim rank": 3
  },
  {
   "team": "STL",
-  "elim order": 11
+  "elim order": 11,
+  "elim rank": 2
  },
  {
   "team": "BOS",
-  "elim order": 12
+  "elim order": 12,
+  "elim rank": 1
  }
 ],
 "1969":[
  {
   "team": "PIT",
-  "elim order": 1
+  "elim order": 1,
+  "elim rank": 12
  },
  {
   "team": "CHI",
-  "elim order": 2
+  "elim order": 2,
+  "elim rank": 11
  },
  {
   "team": "MIN",
-  "elim order": 3
+  "elim order": 3,
+  "elim rank": 10
  },
  {
   "team": "DET",
-  "elim order": 4
+  "elim order": 4,
+  "elim rank": 9
  },
  {
   "team": "NYR",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 6
  },
  {
   "team": "PHI",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 6
  },
  {
   "team": "TOR",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 6
  },
  {
   "team": "OAK",
-  "elim order": 8
+  "elim order": 8,
+  "elim rank": 5
  },
  {
   "team": "LAK",
-  "elim order": 9
+  "elim order": 9,
+  "elim rank": 4
  },
  {
   "team": "BOS",
-  "elim order": 10
+  "elim order": 10,
+  "elim rank": 3
  },
  {
   "team": "STL",
-  "elim order": 11
+  "elim order": 11,
+  "elim rank": 2
  },
  {
   "team": "MTL",
-  "elim order": 12
+  "elim order": 12,
+  "elim rank": 1
  }
 ],
 "1968":[
  {
   "team": "OAK",
-  "elim order": 1
+  "elim order": 1,
+  "elim rank": 12
  },
  {
   "team": "DET",
-  "elim order": 2
+  "elim order": 2,
+  "elim rank": 11
  },
  {
   "team": "TOR",
-  "elim order": 3
+  "elim order": 3,
+  "elim rank": 10
  },
  {
   "team": "PIT",
-  "elim order": 4
+  "elim order": 4,
+  "elim rank": 9
  },
  {
   "team": "BOS",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 8
  },
  {
   "team": "NYR",
-  "elim order": 6
+  "elim order": 6,
+  "elim rank": 7
  },
  {
   "team": "PHI",
-  "elim order": 7
+  "elim order": 7,
+  "elim rank": 5
  },
  {
   "team": "LAK",
-  "elim order": 7
+  "elim order": 7,
+  "elim rank": 5
  },
  {
   "team": "CHI",
-  "elim order": 9
+  "elim order": 9,
+  "elim rank": 4
  },
  {
   "team": "MIN",
-  "elim order": 10
+  "elim order": 10,
+  "elim rank": 3
  },
  {
   "team": "STL",
-  "elim order": 11
+  "elim order": 11,
+  "elim rank": 2
  },
  {
   "team": "MTL",
-  "elim order": 12
+  "elim order": 12,
+  "elim rank": 1
  }
 ],
 "1967":[
  {
   "team": "BOS",
-  "elim order": 1
+  "elim order": 1,
+  "elim rank": 6
  },
  {
   "team": "DET",
-  "elim order": 2
+  "elim order": 2,
+  "elim rank": 5
  },
  {
   "team": "NYR",
-  "elim order": 3
+  "elim order": 3,
+  "elim rank": 4
  },
  {
   "team": "CHI",
-  "elim order": 4
+  "elim order": 4,
+  "elim rank": 3
  },
  {
   "team": "MTL",
-  "elim order": 5
+  "elim order": 5,
+  "elim rank": 2
  },
  {
   "team": "TOR",
-  "elim order": 6
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1966":[
+ {
+  "team": "BOS",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "TOR",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "CHI",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "MTL",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1965":[
+ {
+  "team": "BOS",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "TOR",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "DET",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "CHI",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "MTL",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1964":[
+ {
+  "team": "BOS",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "MTL",
+  "elim order": 3,
+  "elim rank": 3
+ },
+ {
+  "team": "CHI",
+  "elim order": 3,
+  "elim rank": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "TOR",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1963":[
+ {
+  "team": "BOS",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "MTL",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "CHI",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "TOR",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1962":[
+ {
+  "team": "BOS",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "DET",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "NYR",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "MTL",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "CHI",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "TOR",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1961":[
+ {
+  "team": "BOS",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "TOR",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "MTL",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "CHI",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1960":[
+ {
+  "team": "NYR",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "BOS",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "CHI",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "DET",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "TOR",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "MTL",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1959":[
+ {
+  "team": "DET",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "CHI",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "BOS",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "TOR",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "MTL",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1958":[
+ {
+  "team": "CHI",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "TOR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "DET",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "NYR",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "BOS",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "MTL",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1957":[
+ {
+  "team": "CHI",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "TOR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "NYR",
+  "elim order": 3,
+  "elim rank": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 3,
+  "elim rank": 3
+ },
+ {
+  "team": "BOS",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "MTL",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1956":[
+ {
+  "team": "CHI",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "BOS",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "NYR",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "TOR",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "MTL",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1955":[
+ {
+  "team": "CHI",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "TOR",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "BOS",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "MTL",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "DET",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1954":[
+ {
+  "team": "CHI",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "BOS",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "TOR",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "MTL",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "DET",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1953":[
+ {
+  "team": "NYR",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "TOR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "DET",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "CHI",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "BOS",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "MTL",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1952":[
+ {
+  "team": "CHI",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "TOR",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "BOS",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "MTL",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "DET",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1951":[
+ {
+  "team": "CHI",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "DET",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "BOS",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "MTL",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "TOR",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1950":[
+ {
+  "team": "CHI",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "BOS",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "MTL",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "TOR",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "NYR",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "DET",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1949":[
+ {
+  "team": "NYR",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "CHI",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "BOS",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "MTL",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "TOR",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1948":[
+ {
+  "team": "CHI",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "MTL",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "BOS",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "NYR",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "TOR",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1947":[
+ {
+  "team": "CHI",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "NYR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "BOS",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "DET",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "MTL",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "TOR",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1946":[
+ {
+  "team": "NYR",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "TOR",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "CHI",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "DET",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "BOS",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "MTL",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1945":[
+ {
+  "team": "NYR",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "CHI",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "MTL",
+  "elim order": 3,
+  "elim rank": 4
+ },
+ {
+  "team": "BOS",
+  "elim order": 4,
+  "elim rank": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "TOR",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1944":[
+ {
+  "team": "NYR",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "BOS",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "TOR",
+  "elim order": 3,
+  "elim rank": 3
+ },
+ {
+  "team": "DET",
+  "elim order": 3,
+  "elim rank": 3
+ },
+ {
+  "team": "CHI",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "MTL",
+  "elim order": 6,
+  "elim rank": 1
+ }
+],
+"1943":[
+ {
+  "team": "NYR",
+  "elim order": 1,
+  "elim rank": 6
+ },
+ {
+  "team": "CHI",
+  "elim order": 2,
+  "elim rank": 5
+ },
+ {
+  "team": "MTL",
+  "elim order": 3,
+  "elim rank": 3
+ },
+ {
+  "team": "TOR",
+  "elim order": 3,
+  "elim rank": 3
+ },
+ {
+  "team": "BOS",
+  "elim order": 5,
+  "elim rank": 2
+ },
+ {
+  "team": "DET",
+  "elim order": 6,
+  "elim rank": 1
  }
 ]
 }

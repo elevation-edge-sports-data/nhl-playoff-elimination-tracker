@@ -125,10 +125,12 @@
         setIsAnimating(true);
 
         const teams = eliminationData[selectedSeason]
-          ? eliminationData[selectedSeason].sort((a, b) => a['elim order'] - b['elim order'])
+          ? eliminationData[selectedSeason]
+              .filter(team => team.team && Number.isInteger(team['elim order']))
+              .sort((a, b) => a['elim order'] - b['elim order'])
           : [];
         if (teams.length === 0) {
-          console.log('No teams to animate for season:', selectedSeason);
+          console.log('No valid teams to animate for season:', selectedSeason);
           setIsAnimating(false);
           setCurrentElimOrder(0);
           return;
@@ -137,7 +139,6 @@
         const validElimOrders = [...new Set(teams.map(t => t['elim order']))].sort((a, b) => a - b);
         let currentIndex = validElimOrders.indexOf(currentElimOrder);
         if (currentIndex === -1 || currentIndex >= validElimOrders.length) {
-          // If currentElimOrder is not in validElimOrders or animation is complete, reset to start
           currentIndex = 0;
           setCurrentElimOrder(0);
           teams.forEach(team => {
@@ -146,7 +147,6 @@
             }
           });
         } else if (currentElimOrder > 0) {
-          // Ensure current state is reflected before continuing
           teams.forEach(team => {
             if (markersRef.current[team.team]) {
               markersRef.current[team.team].setOpacity(team['elim order'] <= currentElimOrder ? 0 : 1);
@@ -188,7 +188,9 @@
       const stepForward = () => {
         if (!selectedSeason || isAnimating) return;
         const teams = eliminationData[selectedSeason]
-          ? eliminationData[selectedSeason].sort((a, b) => a['elim order'] - b['elim order'])
+          ? eliminationData[selectedSeason]
+              .filter(team => team.team && Number.isInteger(team['elim order']))
+              .sort((a, b) => a['elim order'] - b['elim order'])
           : [];
         const validElimOrders = [...new Set(teams.map(t => t['elim order']))].sort((a, b) => a - b);
         const currentIndex = validElimOrders.indexOf(currentElimOrder);
@@ -207,7 +209,9 @@
       const stepBack = () => {
         if (!selectedSeason || isAnimating) return;
         const teams = eliminationData[selectedSeason]
-          ? eliminationData[selectedSeason].sort((a, b) => a['elim order'] - b['elim order'])
+          ? eliminationData[selectedSeason]
+              .filter(team => team.team && Number.isInteger(team['elim order']))
+              .sort((a, b) => a['elim order'] - b['elim order'])
           : [];
         const validElimOrders = [...new Set(teams.map(t => t['elim order']))].sort((a, b) => a - b);
         if (currentElimOrder === 0) return;
@@ -231,7 +235,9 @@
           clearInterval(intervalRef.current);
           intervalRef.current = null;
         }
-        const teams = eliminationData[selectedSeason] || [];
+        const teams = eliminationData[selectedSeason]
+          ? eliminationData[selectedSeason].filter(team => team.team && Number.isInteger(team['elim order']))
+          : [];
         teams.forEach(team => {
           if (markersRef.current[team.team]) {
             markersRef.current[team.team].setOpacity(1);
@@ -253,37 +259,34 @@
           });
           markersRef.current = {};
 
-          eliminationData[selectedSeason].forEach(team => {
-            const coords = teamCoordinates[team.team];
-            if (!coords) {
-              console.warn(`No coordinates for team ${team.team} in season ${selectedSeason}`);
-              return;
-            }
+          eliminationData[selectedSeason]
+            .filter(team => team.team && Number.isInteger(team['elim order']) && teamCoordinates[team.team])
+            .forEach(team => {
+              const coords = teamCoordinates[team.team];
+              const teamAbbr = team.team;
+              const logoUrl = `logos/NHL${selectedSeason}/${teamAbbr}.png`;
+              console.log(`Attempting to load logo: ${logoUrl} at lat: ${coords.lat}, lon: ${coords.lon}`);
+              
+              const marker = L.marker([coords.lat, coords.lon], {
+                icon: L.divIcon({
+                  className: 'team-logo',
+                  html: `<img src="${logoUrl}" alt="${teamAbbr}" style="width: 60px; height: 60px;" />`,
+                  iconSize: [60, 60],
+                  iconAnchor: [30, 30]
+                }),
+                opacity: team['elim order'] <= currentElimOrder ? 0 : 1,
+                zIndexOffset: 10
+              }).addTo(mapInstanceRef.current);
 
-            const teamAbbr = team.team;
-            const logoUrl = `logos/NHL${selectedSeason}/${teamAbbr}.png`;
-            console.log(`Attempting to load logo: ${logoUrl} at lat: ${coords.lat}, lon: ${coords.lon}`);
-            
-            const marker = L.marker([coords.lat, coords.lon], {
-              icon: L.divIcon({
-                className: 'team-logo',
-                html: `<img src="${logoUrl}" alt="${teamAbbr}" style="width: 60px; height: 60px;" />`,
-                iconSize: [60, 60],
-                iconAnchor: [30, 30]
-              }),
-              opacity: team['elim order'] <= currentElimOrder ? 0 : 1,
-              zIndexOffset: 10
-            }).addTo(mapInstanceRef.current);
+              marker.on('add', () => {
+                console.log(`Successfully added marker for ${teamAbbr} in season ${selectedSeason}`);
+              });
+              marker.on('error', () => {
+                console.error(`Failed to load logo for ${teamAbbr} in season ${selectedSeason}`);
+              });
 
-            marker.on('add', () => {
-              console.log(`Successfully added marker for ${teamAbbr} in season ${selectedSeason}`);
+              markersRef.current[teamAbbr] = marker;
             });
-            marker.on('error', () => {
-              console.error(`Failed to load logo for ${teamAbbr} in season ${selectedSeason}`);
-            });
-
-            markersRef.current[teamAbbr] = marker;
-          });
         }
 
         return (
@@ -293,7 +296,7 @@
         );
       };
 
-      const seasonsRange = Array.from({ length: 2025 - 1967 + 1 }, (_, i) => (1967 + i).toString());
+      const seasonsRange = Array.from({ length: 2025 - 1943 + 1 }, (_, i) => (1943 + i).toString());
 
       console.log('Rendering component, eliminationData keys:', Object.keys(eliminationData));
 
