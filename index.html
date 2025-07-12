@@ -51,6 +51,7 @@
       const mapRef = useRef(null);
       const mapInstanceRef = useRef(null);
       const markersRef = useRef({});
+      const intervalRef = useRef(null);
 
       useEffect(() => {
         if (Object.keys(eliminationData).length > 0 && !selectedSeason) {
@@ -109,6 +110,10 @@
         setSelectedSeason(e.target.value);
         setIsAnimating(false);
         setCurrentElimOrder(0);
+        if (intervalRef.current) {
+          clearInterval(intervalRef.current);
+          intervalRef.current = null;
+        }
         Object.values(markersRef.current).forEach(marker => {
           marker.setOpacity(1);
         });
@@ -116,7 +121,7 @@
 
       const startAnimation = () => {
         if (!selectedSeason || isAnimating) return;
-        console.log('Starting animation for season:', selectedSeason);
+        console.log('Starting animation for season:', selectedSeason, 'from elim order:', currentElimOrder);
         setIsAnimating(true);
 
         const teams = eliminationData[selectedSeason]
@@ -130,11 +135,30 @@
         }
 
         const validElimOrders = [...new Set(teams.map(t => t['elim order']))].sort((a, b) => a - b);
-        let currentIndex = 0;
+        let currentIndex = validElimOrders.indexOf(currentElimOrder);
+        if (currentIndex === -1 || currentIndex >= validElimOrders.length) {
+          // If currentElimOrder is not in validElimOrders or animation is complete, reset to start
+          currentIndex = 0;
+          setCurrentElimOrder(0);
+          teams.forEach(team => {
+            if (markersRef.current[team.team]) {
+              markersRef.current[team.team].setOpacity(1);
+            }
+          });
+        } else if (currentElimOrder > 0) {
+          // Ensure current state is reflected before continuing
+          teams.forEach(team => {
+            if (markersRef.current[team.team]) {
+              markersRef.current[team.team].setOpacity(team['elim order'] <= currentElimOrder ? 0 : 1);
+            }
+          });
+        }
 
-        const removeTeams = () => {
+        intervalRef.current = setInterval(() => {
           if (currentIndex >= validElimOrders.length) {
             console.log('Animation complete');
+            clearInterval(intervalRef.current);
+            intervalRef.current = null;
             setIsAnimating(false);
             setCurrentElimOrder(0);
             return;
@@ -149,15 +173,16 @@
             }
           });
           currentIndex++;
-          if (isAnimating) setTimeout(removeTeams, 1000);
-        };
+        }, 1000);
+      };
 
-        teams.forEach(team => {
-          if (markersRef.current[team.team]) {
-            markersRef.current[team.team].setOpacity(1);
-          }
-        });
-        setTimeout(removeTeams, 1000);
+      const stopAnimation = () => {
+        console.log('Stopping animation for season:', selectedSeason);
+        if (intervalRef.current) {
+          clearInterval(intervalRef.current);
+          intervalRef.current = null;
+        }
+        setIsAnimating(false);
       };
 
       const stepForward = () => {
@@ -185,15 +210,15 @@
           ? eliminationData[selectedSeason].sort((a, b) => a['elim order'] - b['elim order'])
           : [];
         const validElimOrders = [...new Set(teams.map(t => t['elim order']))].sort((a, b) => a - b);
-        const currentIndex = validElimOrders.indexOf(currentElimOrder);
-        if (currentIndex <= 0) return;
+        if (currentElimOrder === 0) return;
 
-        const prevStep = validElimOrders[currentIndex - 1];
+        const currentIndex = validElimOrders.indexOf(currentElimOrder);
+        const prevStep = currentIndex > 0 ? validElimOrders[currentIndex - 1] : 0;
         setCurrentElimOrder(prevStep);
         console.log(`Stepping back to elim order ${prevStep}`);
         teams.forEach(team => {
           if (markersRef.current[team.team]) {
-            markersRef.current[team.team].setOpacity(team['elim order'] <= prevStep ? 0 : 1);
+            markersRef.current[team.team].setOpacity(prevStep === 0 ? 1 : team['elim order'] <= prevStep ? 0 : 1);
           }
         });
       };
@@ -202,6 +227,10 @@
         console.log('Resetting animation for season:', selectedSeason);
         setIsAnimating(false);
         setCurrentElimOrder(0);
+        if (intervalRef.current) {
+          clearInterval(intervalRef.current);
+          intervalRef.current = null;
+        }
         const teams = eliminationData[selectedSeason] || [];
         teams.forEach(team => {
           if (markersRef.current[team.team]) {
@@ -299,7 +328,14 @@
                 className={`px-4 py-2 rounded text-white ${selectedSeason && !isAnimating && !isLoading ? 'bg-blue-500 hover:bg-blue-600' : 'bg-gray-400 cursor-not-allowed'}`}
                 disabled={!selectedSeason || isAnimating || isLoading}
               >
-                Play Animation
+                {currentElimOrder > 0 ? 'Continue Animation' : 'Play Animation'}
+              </button>
+              <button
+                onClick={stopAnimation}
+                className={`px-4 py-2 rounded text-white ${selectedSeason && isAnimating && !isLoading ? 'bg-red-500 hover:bg-red-600' : 'bg-gray-400 cursor-not-allowed'}`}
+                disabled={!selectedSeason || !isAnimating || isLoading}
+              >
+                Stop Animation
               </button>
               <button
                 onClick={stepBack}
