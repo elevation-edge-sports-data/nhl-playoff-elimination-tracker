@@ -9,21 +9,23 @@
   <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
   <style>
-    .team-logo { position: absolute; width: 60px; height: 60px; transition: opacity 0.5s; z-index: 10; }
+    .team-logo { width: 60px; height: 60px; transition: opacity 0.5s; }
     .team-logo img { width: 100%; height: 100%; object-fit: contain; }
     .error-message { color: red; text-align: center; margin-top: 1rem; }
     .loading-message { color: blue; text-align: center; margin-top: 1rem; }
     select { min-width: 150px; z-index: 1000; visibility: visible; }
     .controls { min-height: 40px; z-index: 1000; display: flex; gap: 8px; flex-wrap: wrap; }
-    .team-container { position: relative; width: 1200px; height: 900px; margin: 0 auto; background-color: #f0f0f0; } /* Placeholder background */
+    .team-container { position: relative; width: 1200px; height: 900px; margin: 0 auto; }
+    #map { width: 1200px; height: 900px; z-index: 1; }
   </style>
 </head>
 <body class="bg-gray-100 font-sans">
   <div id="root"></div>
-
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
   <script type="text/babel">
-    const { useState, useEffect, Component } = React;
+    const { useState, useEffect, useRef, Component } = React;
 
     class ErrorBoundary extends Component {
       state = { error: null };
@@ -46,6 +48,9 @@
       const [error, setError] = useState(null);
       const [isLoading, setIsLoading] = useState(true);
       const [currentElimOrder, setCurrentElimOrder] = useState(0);
+      const mapRef = useRef(null);
+      const mapInstanceRef = useRef(null);
+      const markersRef = useRef({});
 
       useEffect(() => {
         if (Object.keys(eliminationData).length > 0 && !selectedSeason) {
@@ -84,21 +89,29 @@
           });
       }, []);
 
-      const project = (lat, lon) => {
-        const mapWidth = 1200;
-        const mapHeight = 900;
-        // North America: lat 25–55°N, lon –130 to –60°W
-        const x = ((lon + 130) * (mapWidth / 70)); // –130 to –60°W
-        const y = ((55 - lat) * (mapHeight / 30)); // 25–55°N
-        console.log(`Projecting team at lat: ${lat}, lon: ${lon} to x: ${x}, y: ${y}`);
-        return { x, y };
-      };
+      useEffect(() => {
+        if (!mapInstanceRef.current && mapRef.current) {
+          mapInstanceRef.current = L.map(mapRef.current, { minZoom: 3, maxZoom: 5 }).setView([50.0, -100.0], 4);
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(mapInstanceRef.current);
+        }
+        return () => {
+          if (mapInstanceRef.current) {
+            mapInstanceRef.current.remove();
+            mapInstanceRef.current = null;
+          }
+        };
+      }, []);
 
       const handleSeasonChange = (e) => {
         console.log('Selected season:', e.target.value);
         setSelectedSeason(e.target.value);
         setIsAnimating(false);
         setCurrentElimOrder(0);
+        Object.values(markersRef.current).forEach(marker => {
+          marker.setOpacity(1);
+        });
       };
 
       const startAnimation = () => {
@@ -109,26 +122,40 @@
         const teams = eliminationData[selectedSeason]
           ? eliminationData[selectedSeason].sort((a, b) => a['elim order'] - b['elim order'])
           : [];
-        const maxElimOrder = teams.length ? Math.max(...teams.map(t => t['elim order'])) : 0;
-        let currentStep = 1;
+        if (teams.length === 0) {
+          console.log('No teams to animate for season:', selectedSeason);
+          setIsAnimating(false);
+          setCurrentElimOrder(0);
+          return;
+        }
+
+        const validElimOrders = [...new Set(teams.map(t => t['elim order']))].sort((a, b) => a - b);
+        let currentIndex = 0;
 
         const removeTeams = () => {
-          if (currentStep > maxElimOrder) {
+          if (currentIndex >= validElimOrders.length) {
             console.log('Animation complete');
             setIsAnimating(false);
             setCurrentElimOrder(0);
             return;
           }
 
+          const currentStep = validElimOrders[currentIndex];
           setCurrentElimOrder(currentStep);
           console.log(`Removing teams at elim order ${currentStep}:`, teams.filter(t => t['elim order'] === currentStep).map(t => t.team));
-          currentStep++;
+          teams.forEach(team => {
+            if (team['elim order'] <= currentStep && markersRef.current[team.team]) {
+              markersRef.current[team.team].setOpacity(0);
+            }
+          });
+          currentIndex++;
           if (isAnimating) setTimeout(removeTeams, 1000);
         };
 
         teams.forEach(team => {
-          const logo = document.querySelector(`.team-logo[data-team="${team.team}"]`);
-          if (logo) logo.style.opacity = '1';
+          if (markersRef.current[team.team]) {
+            markersRef.current[team.team].setOpacity(1);
+          }
         });
         setTimeout(removeTeams, 1000);
       };
@@ -138,25 +165,36 @@
         const teams = eliminationData[selectedSeason]
           ? eliminationData[selectedSeason].sort((a, b) => a['elim order'] - b['elim order'])
           : [];
-        const maxElimOrder = teams.length ? Math.max(...teams.map(t => t['elim order'])) : 0;
-        if (currentElimOrder >= maxElimOrder) return;
+        const validElimOrders = [...new Set(teams.map(t => t['elim order']))].sort((a, b) => a - b);
+        const currentIndex = validElimOrders.indexOf(currentElimOrder);
+        if (currentIndex >= validElimOrders.length - 1) return;
 
-        const nextStep = currentElimOrder + 1;
+        const nextStep = validElimOrders[currentIndex + 1];
         setCurrentElimOrder(nextStep);
         console.log(`Stepping forward to elim order ${nextStep}:`, teams.filter(t => t['elim order'] === nextStep).map(t => t.team));
+        teams.forEach(team => {
+          if (team['elim order'] <= nextStep && markersRef.current[team.team]) {
+            markersRef.current[team.team].setOpacity(0);
+          }
+        });
       };
 
       const stepBack = () => {
         if (!selectedSeason || isAnimating) return;
-        if (currentElimOrder <= 0) return;
+        const teams = eliminationData[selectedSeason]
+          ? eliminationData[selectedSeason].sort((a, b) => a['elim order'] - b['elim order'])
+          : [];
+        const validElimOrders = [...new Set(teams.map(t => t['elim order']))].sort((a, b) => a - b);
+        const currentIndex = validElimOrders.indexOf(currentElimOrder);
+        if (currentIndex <= 0) return;
 
-        const prevStep = currentElimOrder - 1;
+        const prevStep = validElimOrders[currentIndex - 1];
         setCurrentElimOrder(prevStep);
         console.log(`Stepping back to elim order ${prevStep}`);
-        const teams = eliminationData[selectedSeason] || [];
         teams.forEach(team => {
-          const logo = document.querySelector(`.team-logo[data-team="${team.team}"]`);
-          if (logo) logo.style.opacity = team['elim order'] <= prevStep ? '0' : '1';
+          if (markersRef.current[team.team]) {
+            markersRef.current[team.team].setOpacity(team['elim order'] <= prevStep ? 0 : 1);
+          }
         });
       };
 
@@ -166,54 +204,62 @@
         setCurrentElimOrder(0);
         const teams = eliminationData[selectedSeason] || [];
         teams.forEach(team => {
-          const logo = document.querySelector(`.team-logo[data-team="${team.team}"]`);
-          if (logo) logo.style.opacity = '1';
+          if (markersRef.current[team.team]) {
+            markersRef.current[team.team].setOpacity(1);
+          }
         });
       };
 
       const renderTeams = () => {
         if (!selectedSeason || !eliminationData[selectedSeason]) {
           console.log('No season selected or data missing for:', selectedSeason);
-          return <div className="team-container"></div>;
+          return <div className="team-container"><div id="map" ref={mapRef}></div></div>;
         }
 
         console.log('Rendering teams for season:', selectedSeason, 'with teams:', eliminationData[selectedSeason].map(t => t.team));
+
+        if (mapInstanceRef.current) {
+          Object.values(markersRef.current).forEach(marker => {
+            mapInstanceRef.current.removeLayer(marker);
+          });
+          markersRef.current = {};
+
+          eliminationData[selectedSeason].forEach(team => {
+            const coords = teamCoordinates[team.team];
+            if (!coords) {
+              console.warn(`No coordinates for team ${team.team} in season ${selectedSeason}`);
+              return;
+            }
+
+            const teamAbbr = team.team;
+            const logoUrl = `logos/NHL${selectedSeason}/${teamAbbr}.png`;
+            console.log(`Attempting to load logo: ${logoUrl} at lat: ${coords.lat}, lon: ${coords.lon}`);
+            
+            const marker = L.marker([coords.lat, coords.lon], {
+              icon: L.divIcon({
+                className: 'team-logo',
+                html: `<img src="${logoUrl}" alt="${teamAbbr}" style="width: 60px; height: 60px;" />`,
+                iconSize: [60, 60],
+                iconAnchor: [30, 30]
+              }),
+              opacity: team['elim order'] <= currentElimOrder ? 0 : 1,
+              zIndexOffset: 10
+            }).addTo(mapInstanceRef.current);
+
+            marker.on('add', () => {
+              console.log(`Successfully added marker for ${teamAbbr} in season ${selectedSeason}`);
+            });
+            marker.on('error', () => {
+              console.error(`Failed to load logo for ${teamAbbr} in season ${selectedSeason}`);
+            });
+
+            markersRef.current[teamAbbr] = marker;
+          });
+        }
+
         return (
           <div className="team-container">
-            {eliminationData[selectedSeason].map(team => {
-              const coords = teamCoordinates[team.team];
-              if (!coords) {
-                console.warn(`No coordinates for team ${team.team} in season ${selectedSeason}`);
-                return null;
-              }
-
-              const { x, y } = project(coords.lat, coords.lon);
-              const teamAbbr = team.team;
-              console.log(`Attempting to load logo: /logos/NHL${selectedSeason}/${teamAbbr}.png at x: ${x}, y: ${y}`);
-              return (
-                <div
-                  key={teamAbbr}
-                  className="team-logo"
-                  data-team={teamAbbr}
-                  style={{ 
-                    left: `${x - 30}px`, 
-                    top: `${y - 30}px`, 
-                    opacity: team['elim order'] <= currentElimOrder ? '0' : '1',
-                    display: (x < 0 || x > 1200 || y < 0 || y > 900) ? 'none' : 'block'
-                  }}
-                >
-                  <img
-                    src={`logos/NHL${selectedSeason}/${teamAbbr}.png`}
-                    alt={teamAbbr}
-                    onError={(e) => {
-                      console.error(`Failed to load logo for ${teamAbbr} in season ${selectedSeason} at /logos/NHL${selectedSeason}/${teamAbbr}.png`);
-                      e.target.style.display = 'none';
-                    }}
-                    onLoad={() => console.log(`Successfully loaded logo for ${teamAbbr} in season ${selectedSeason} at /logos/NHL${selectedSeason}/${teamAbbr}.png`)}
-                  />
-                </div>
-              );
-            })}
+            <div id="map" ref={mapRef}></div>
           </div>
         );
       };
@@ -277,9 +323,7 @@
                 Reset
               </button>
             </div>
-            <div className="team-container">
-              {renderTeams()}
-            </div>
+            {renderTeams()}
           </div>
         </ErrorBoundary>
       );
