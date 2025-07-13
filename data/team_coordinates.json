@@ -29,6 +29,7 @@
   "PHX": {"lat": 33.4484, "lon": -112.0740, "city": "Phoenix"},
   "PIT": {"lat": 40.4406, "lon": -79.9959, "city": "Pittsburgh"},
   "QUE": {"lat": 46.8139, "lon": -71.2072, "city": "Quebec City"},
+  "SEA": {"lat": 47.622501, "lon": -122.354012, "city": "Seattle"},
   "SJS": {"lat": 37.3382, "lon": -121.8863, "city": "San Jose"},
   "STL": {"lat": 38.6270, "lon": -90.1994, "city": "St. Louis"},
   "TBL": {"lat": 27.9506, "lon": -82.4572, "city": "Tampa"},
