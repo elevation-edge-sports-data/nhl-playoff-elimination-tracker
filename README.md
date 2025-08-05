@@ -1,78 +1,58 @@
 # NHL Playoff Elimination Tracker
 
-This interactive web app visualizes the progression of NHL playoff eliminations for any season from 1967 through 2025. It features a geographic display of all NHL teams, with logos positioned based on team location and animated in elimination order based on historical results — including both regular season and postseason outcomes.
-
-Designed for fans, analysts, and historians, this project offers a unique way to explore how the Stanley Cup Playoffs unfolded across decades of NHL history.
-
-### 📸 NHL Playoff Elimination Tracker – Screenshot
-
-![Screenshot of NHL Playoff Elimination Tracker](screenshot.png)
-
----
+An interactive web app that visualizes playoff eliminations from each NHL season.
 
 ## Features
 
-- **Season Selector**  
-  Instantly switch between any NHL playoff season from 1967 to 2025.
+- Simple, responsive front-end built with HTML, TailwindCSS, JavaScript, React, and Leaflet.js  
+- Fully client-side implementation with no backend or build tools  
+- Covers all NHL seasons from 1918 to 2025  
+- Logos are positioned geographically using real-world coordinates  
+- Era-accurate logos for each team based on the selected season  
+- Interactive elimination animations with step, play, stop, and reset controls  
+- Optional map background layers and logo styling toggles
 
-- **Elimination Sequence Visualization**  
-  Teams are animated off the display in the order they were eliminated, with same-day eliminations handled simultaneously. Sequences reflect both regular season playoff eliminations and postseason results.
+## Screenshot
 
-- **Location-Based Logo Placement**  
-  Logos for each team are accurately placed based on geographic coordinates (latitude and longitude). A map background is currently in development.
+![Screenshot of NHL Playoff Elimination Tracker](screenshot.png)
 
-- **Era-Accurate Logos**  
-  Each season uses historically accurate team logos reflecting the branding used during that year.
+## Live Demo
 
----
+The app is deployed via GitHub Pages: 
 
-## Project Structure
+https://elevation-edge-sports-data.github.io/nhl-playoff-team-stats/
 
-```plaintext
-.
-├── index.html                # Main web app (self-contained)
-├── data/
-│   ├── team_coordinates.json  # Latitude/longitude for each franchise
-│   └── NHLelimseq.json        # Elimination sequence data for all seasons
-├── logosNHL/
-│   ├── NHL1967/
-│   ├── NHL1968/
+## Local Usage
+
+To run the app locally:
+
+1. Clone the repository:
+
+git clone https://github.com/elevation-edge-sports-data/nhl-playoff-team-stats.git
+
+2. Open `index.html` in your browser.  
+No build step or backend is required; all content is static and client-side.
+
+
+## Project Structure 
+
+nhl-playoff-elimination-tracker/
+├── index.html # Main landing page with team directory
+├── script.js # Powers interactivity on index and team pages
+├── styles.css # Controls layout, colors, fonts, and responsiveness
+├── data/     # Historical team logos for each NHL season
+│   ├── NHLelimseq.json # 
+│   └── team_coordinates.json #
+├── logos/     # Historical team logos for each NHL season
+│   ├── NHL1918/
 │   ├── ...
-│   └── NHL2025/              # One folder per season with era-accurate logos
-└── README.md
+│   └── NHL2026/
+├── .nojekyll/ # No Jekyll File
+├── screenshot.png/ # App screenshot
+└── README.md # This documentation
 
+## License
 
+This project is open-source and freely available for personal or educational use.
 
-
----
-
-## Data Sources
-
-- **Team Coordinates**  
-  Manually curated geographic data for NHL franchises, accounting for relocations, name changes, and expansion history.
-
-- **Elimination Sequences**  
-  A single JSON file (`NHLelimseq.json`) provides the elimination order for every NHL team in each season from 1967 to 2025. These sequences reflect both regular season eliminations (i.e., teams that failed to qualify) and playoff losses.  
-  All sequences were **manually verified** by reviewing daily standings across many seasons — especially during the final weeks of the regular season — to ensure historical accuracy.
-
-- **Logos**  
-  Each season’s folder contains the official team logos used in that year, providing an authentic visual context. Logos are chosen to reflect the look and feel of each era.
-
----
-
-## Goals
-
-This project is part of the [Elevation Edge Sports Data](https://github.com/elevation-edge-sports-data) portfolio, which explores the intersection of sports analytics, historical storytelling, and interactive design.
-
-Future goals include:
-- Adding a stylized North American map as the background layer
-- Full support for elimination animation playback
-- Shareable recaps and season videos
-- Enhanced mobile experience and accessibility
-- Additional overlays (e.g., series results, scores, or rivalries)
-
----
-
-## Disclaimer
-
-This is a personal project for educational and portfolio purposes. NHL logos are used under fair use for historical and illustrative purposes only. All trademarks and intellectual property belong to their respective owners.
+Produced by Zach Sajevic (2025)
