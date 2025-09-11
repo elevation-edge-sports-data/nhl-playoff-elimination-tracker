@@ -20,7 +20,7 @@ An interactive web app that visualizes playoff eliminations from each NHL season
 
 The app is deployed via GitHub Pages: 
 
-https://elevation-edge-sports-data.github.io/nhl-playoff-team-stats/
+[https://elevation-edge-sports-data.github.io/nhl-playoff-team-stats/](https://elevation-edge-sports-data.github.io/nhl-playoff-elimination-tracker/)
 
 ## Local Usage
 
@@ -28,7 +28,7 @@ To run the app locally:
 
 1. Clone the repository:
 
-git clone https://github.com/elevation-edge-sports-data/nhl-playoff-team-stats.git
+git clone https://github.com/elevation-edge-sports-data/nhl-playoff-elimination-tracker.git
 
 2. Open `index.html` in your browser.  
 No build step or backend is required; all content is static and client-side.
