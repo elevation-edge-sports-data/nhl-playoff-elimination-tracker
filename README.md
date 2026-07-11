@@ -1,16 +1,16 @@
 # NHL Playoff Elimination Tracker
 
-An interactive web app that visualizes playoff eliminations from each NHL season.
+An interactive web application that visualizes NHL Stanley Cup Playoff eliminations in sequence across every season from 1918 to 2026.
 
 ## Features
 
-- Simple, responsive front-end built with HTML, TailwindCSS, JavaScript, React, and Leaflet.js  
-- Fully client-side implementation with no backend or build tools  
-- Covers all NHL seasons from 1918 to 2025  
-- Logos are positioned geographically using real-world coordinates  
-- Era-accurate logos for each team based on the selected season  
-- Interactive elimination animations with step, play, stop, and reset controls  
-- Optional map background layers and logo styling toggles
+- Interactive web application built with HTML, TailwindCSS, JavaScript, React, and Leaflet.js
+- Visualizes over a century of NHL playoff history through an interactive map
+- Animated playoff elimination sequence with step, play, pause, and reset controls
+- Customizable map backgrounds
+- Uses season-specific team logos matching the selected NHL season
+- Displays teams using geographically accurate home arena locations
+
 
 ## Screenshot
 
@@ -18,21 +18,9 @@ An interactive web app that visualizes playoff eliminations from each NHL season
 
 ## Live Demo
 
-The app is deployed via GitHub Pages: 
+Explore the interactive application:
 
-[https://elevation-edge-sports-data.github.io/nhl-playoff-team-stats/](https://elevation-edge-sports-data.github.io/nhl-playoff-elimination-tracker/)
-
-## Local Usage
-
-To run the app locally:
-
-1. Clone the repository:
-
-git clone https://github.com/elevation-edge-sports-data/nhl-playoff-elimination-tracker.git
-
-2. Open `index.html` in your browser.  
-No build step or backend is required; all content is static and client-side.
-
+[https://elevation-edge-sports-data.github.io/nhl-playoff-elimination-tracker/](https://elevation-edge-sports-data.github.io/nhl-playoff-elimination-tracker/)
 
 ## Project Structure 
 
@@ -55,6 +43,6 @@ nhl-playoff-elimination-tracker/
 
 ## License
 
-This project is open-source and freely available for personal or educational use.
+Open source project.
 
 Produced by Zach Sajevic (2025)
