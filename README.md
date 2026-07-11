@@ -36,20 +36,22 @@ No build step or backend is required; all content is static and client-side.
 
 ## Project Structure 
 
+```text
 nhl-playoff-elimination-tracker/
-├── index.html # Main landing page with team directory
-├── script.js # Powers interactivity on index and team pages
-├── styles.css # Controls layout, colors, fonts, and responsiveness
-├── data/     # Historical team logos for each NHL season
-│   ├── NHLelimseq.json # 
-│   └── team_coordinates.json #
-├── logos/     # Historical team logos for each NHL season
+├── index.html               # Main landing page with team directory
+├── script.js                # Powers interactivity on index and team pages
+├── styles.css               # Controls layout, colors, fonts, and responsiveness
+├── data/                    # Project datasets
+│   ├── NHLelimseq.json      # Historical playoff elimination sequence data
+│   └── team_coordinates.json # Geographic coordinates for NHL teams
+├── logos/                   # Historical team logos for each NHL season
 │   ├── NHL1918/
 │   ├── ...
 │   └── NHL2026/
-├── .nojekyll/ # No Jekyll File
-├── screenshot.png/ # App screenshot
-└── README.md # This documentation
+├── .nojekyll                # Disables GitHub Pages Jekyll processing
+├── screenshot.png           # Application screenshot
+└── README.md                # Project documentation
+```
 
 ## License
 
