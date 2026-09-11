@@ -1,8 +1,6 @@
-# NHL Playoff Elimination Tracker v2
+# Playoff Elimination Tracker v3
 
-Every Stanley Cup Playoff elimination from 1918 to 2026.
-
-Companion stats live in [nhl-playoff-team-stats](https://github.com/elevation-edge-sports-data/nhl-playoff-team-stats).
+NHL (1918–2026) and NFL (1966–2025).
 
 ## Screenshot
 
@@ -10,8 +8,12 @@ Companion stats live in [nhl-playoff-team-stats](https://github.com/elevation-ed
 
 ## Live Demo
 
-[https://elevation-edge-sports-data.github.io/nhl-playoff-elimination-tracker/](https://elevation-edge-sports-data.github.io/nhl-playoff-elimination-tracker/)
+[https://elevation-edge-sports-data.github.io/playoff-elimination-tracker/](https://elevation-edge-sports-data.github.io/playoff-elimination-tracker/)
 
-Open source project.
+[GitHub](https://github.com/elevation-edge-sports-data/playoff-elimination-tracker)
+
+Companion NHL stats live in [nhl-playoff-team-stats](https://github.com/elevation-edge-sports-data/nhl-playoff-team-stats).
+
+Built with HTML, CSS, and JavaScript.
 
 Produced by Zach Sajevic (2025–2026)

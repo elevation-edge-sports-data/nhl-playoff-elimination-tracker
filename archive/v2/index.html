@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Playoff Elimination Tracker</title>
+    <title>NHL Playoff Elimination Tracker</title>
     <meta
       name="description"
-      content="Watch NHL and NFL championship races as remaining teams annex the continent. Every elimination from 1918 (NHL) and 1966 (NFL) to today."
+      content="Watch every Stanley Cup race from 1918 to 2026 as remaining teams annex the continent."
     />
     <meta name="theme-color" content="#07080a" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
@@ -19,10 +19,20 @@
     
     <link rel="stylesheet" href="./assets/style.css">
   </head>
-  <body style="margin: 0; background: #07080a; color: #eef2f6">
+  <body style="margin:0;background:#07080a;color:#eef2f6">
     <div id="app">
-      <p style="font-family: sans-serif; padding: 2rem">Loading…</p>
+      <p id="boot-msg" style="font-family:sans-serif;padding:2rem">
+        Loading Cup Territory…
+      </p>
     </div>
+    <script>
+      setTimeout(function () {
+        var el = document.getElementById("boot-msg");
+        if (!el) return;
+        el.innerHTML =
+          "Cup Territory did not start. Unzip the whole folder and keep <code>index.html</code> next to <code>assets/</code>, <code>logos/</code>, and <code>data/</code>. Then host that folder (GitHub Pages) or run <code>npx serve .</code> inside it.";
+      }, 4000);
+    </script>
   <script src="./assets/app.js"></script>
-  </body>
+</body>
 </html>
