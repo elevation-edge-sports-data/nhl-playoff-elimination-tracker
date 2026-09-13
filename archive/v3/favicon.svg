@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <rect width="16" height="16" rx="3" fill="#07080a"/>
+  <rect x="1" y="1" width="14" height="14" rx="2" fill="#12141a"/>
+  <!-- Chunky North America: Alaska + Canada + US + Florida, ice/steel claimed tiles -->
+  <path fill="#8b93a0" d="M2 5h2v3H2z"/>
+  <path fill="#c9d2dc" d="M4 3h7v2H4zm1 2h8v2H5zM4 5h1v2H4zm2 2h8v2H6zM5 7h1v2H5z"/>
+  <path fill="#eef2f6" d="M5 9h7v2H5zm1 2h5v1H6zm1 1h3v1H7zm2 1h1v1H9z"/>
+</svg>
